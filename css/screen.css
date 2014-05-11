@@ -1,0 +1,260 @@
+/* This layout was inspired by Vladimir Agafonkin's Dead Simple Grid. Imitation is the greatest form of flattery.*/
+
+.container
+{
+	margin:20px auto;
+	max-width:540px;
+	padding:1em;
+}
+
+.cabasa
+{
+	color:#000;
+	padding:10px;
+	text-align:center;
+	font-size:24px;
+	text-transform:uppercase;
+}
+
+
+.pie
+{
+	text-align:center;
+	font-size:14px;
+	text-transform:lowercase;
+}
+
+#bologona
+{
+	color:#000;
+	font-size:1em;
+	font-weight:300;
+	padding-bottom:20px;
+}
+
+#buns
+{
+	text-align:center;
+}
+
+body
+{
+	font-family:helvetica;
+	font-weight:100;
+	margin:0;
+	padding:0 0 6px;
+}
+
+a
+{
+	color:#56a0d3;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+h1
+{
+	font-size:40px;
+}
+
+h2
+{
+	font-size:32px;
+}
+
+p,ul
+{
+	font-size:21px;
+	line-height:1.5;
+	margin:0 0 1.5em;
+}
+
+img
+{
+	height:auto;
+	max-width:100%;
+	width:auto;
+}
+
+img.headshot
+{
+	background-size:100%;
+	display:block;
+	height:150px;
+	margin-right:15px;
+	overflow:hidden;
+	width:150px;
+}
+
+img.hotdogs
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/* Nutritional facts*/
+
+.chrisgallo
+{
+	background-color:#FFF;
+	border:1px solid #000;
+	color:#000;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	width:215px;
+}
+
+.chrisgallo a
+{
+	background-color:#FFF;
+	color:#000;
+	outline:none;
+	text-decoration:none;
+}
+
+.name
+{
+	font-family:'Franklin Gothic Heavy', Helvetica Black, Arial Black, Helvetica, sans-serif;
+	font-size:18px;
+	text-align:center;
+}
+
+.email
+{
+	font-family:'Helvetica Regular', Helvetica, Arial, sans-serif;
+	font-size:11px;
+	padding-top:2px;
+}
+
+.beliefs
+{
+	font-family:'Helvetica Black', Arial Black, Helvetica, Arial, sans-serif;
+	font-size:11px;
+	letter-spacing:-1px;
+	padding-top:6px;
+}
+
+.links
+{
+	font-family:'Helvetica Regular', Helvetica, Arial, sans-serif;
+	font-size:11px;
+}
+
+.right
+{
+	padding-top:1px;
+	position:absolute;
+	text-align:right;
+	width:207px;
+}
+
+.percent
+{
+	font-family:'Helvetica Regular', Helvetica, Arial, sans-serif;
+	font-size:11px;
+}
+
+.label
+{
+	font-family:'Helvetica Black', Arial Black, Helvetica, Arial, sans-serif;
+	font-size:9px;
+}
+
+.description
+{
+	ahover:#56A0D3;
+	font-family:'Helvetica Regular', Helvetica, Arial, sans-serif;
+	font-size:11px;
+	padding-top:4px;
+}
+
+.descriptionright
+{
+	padding-top:0;
+	position:absolute;
+	text-align:right;
+	width:207px;
+}
+
+.sublinks
+{
+	font-family:'Helvetica Regular', Helvetica, Arial, sans-serif;
+	font-size:11px;
+	padding-left:10px;
+	padding-top:8px;
+}
+
+.sublinksright
+{
+	font-family:'Helvetica Black', Arial Black, Helvetica, Arial, sans-serif;
+	line-height:16px;
+	margin-top:0;
+	overflow:hidden;
+	position:absolute;
+	text-align:right;
+	width:197px;
+}
+
+.bullet
+{
+	font-family:Helvetica Regular, Helvetica, Arial, sans-serif;
+	font-size:13px;
+	line-height:16px;
+	margin-top:0;
+	overflow:hidden;
+	position:absolute;
+	text-align:center;
+	width:207px;
+}
+
+.misc
+{
+	font-family:Helvetica Regular, Helvetica, Arial, sans-serif;
+	font-size:9px;
+	padding-top:1px;
+}
+
+table.misc
+{
+	border:0 solid #000;
+}
+
+table.misc tr
+{
+	border:0 solid #000;
+}
+
+table.misc td
+{
+	border:0 solid #000;
+}
+
+.thickline
+{
+	border-bottom:7px solid #000;
+	padding-top:1px;
+}
+
+.rule
+{
+	border-bottom:3px solid #000;
+	padding-top:1px;
+}
+
+.thinline
+{
+	border-bottom:1px solid #000;
+	padding-top:1px;
+}
+
+.subthinline
+{
+	border-bottom:1px solid #000;
+	margin-left:10px;
+	padding-left:10px;
+	padding-top:1px;
+}
