@@ -20,7 +20,7 @@
 .pie
 {
 	text-align:center;
-	font-size:14px;
+	font-size:18px;
 	text-transform:lowercase;
 }
 
@@ -48,7 +48,7 @@ body
 a
 {
 	color:#56a0d3;
-	font-weight:bold;
+	font-weight:bolder;
 	text-decoration:none;
 }
 
