@@ -85,10 +85,15 @@ h4 {
 
 .rasheedwallace {
     max-width:540px;
-    padding:1em;
+    padding:3em;
     margin-left:auto;
     margin-right:auto
 }
+
+@media min-width: 600px {
+  .rasheedwallace { 
+  padding:1em;
+  }
 
 img.hotdogs {
     display:block;
