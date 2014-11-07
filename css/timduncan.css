@@ -89,7 +89,7 @@ h4 {
 
 .jerrystackhouse { 
     max-width:540px;
-    padding:3em;
+    padding:1em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -128,6 +128,15 @@ a {
   border-bottom:2px solid #56a0d3;
 }
 
+.gus {
+    font-family:Gill Sans,Verdana;
+    font-size:18px;
+    line-height:21px;
+    letter-spacing:2px;
+    font-weight:lighter;
+    color:#fff;
+}
+
 .devil {
     background-color:#666;
     padding:1em
@@ -139,7 +148,7 @@ a {
     line-height:21px;
     letter-spacing:2px;
     font-weight:lighter;
-    color:#eee
+    color:#fff;
 }
 
 #randolphchildress {
