@@ -60,10 +60,8 @@ h4 {
     color:#fff;
     text-decoration:none;
     padding:20px;
-    width:55%;
+    width:75%;
     border-radius:3px;
-    -webkit-border-radius:3px;
-    -moz-border-radius:3px;
     display:block;
     margin-left:auto;
     margin-right:auto
@@ -78,21 +76,28 @@ h4 {
     color:#fff;
     text-decoration:none;
     padding:20px;
-    width:55%;
+    width:75%;
     border-radius:3px;
-    -webkit-border-radius:3px;
-    -moz-border-radius:3px;
     display:block;
     margin-left:auto;
     margin-right:auto
 }
 
-.rasheedwallace {
-    max-width:540px;
-    padding:1em;
-    margin-left:auto;
-    margin-right:auto
+.rasheedwallace { 
+    max-width:700px;
+    padding:4em;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.jerrystackhouse { 
+    max-width:540px;
+    padding:3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 img.hotdogs {
     display:block;
@@ -108,26 +113,20 @@ img.myface {
     display:block
 }
 
-.unc {
-    background-color:#56a0d3;
-    margin-left:auto;
-    margin-right:auto;
-    padding:5em
-}
 
 a {
-    font-family:Gill Sans,Verdana;
-    font-size:16px;
-    line-height:24px;
-    letter-spacing:2px;
-    font-weight:bolder;
-    text-transform:uppercase
+  font-family: Gill Sans, Verdana;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing:2px;
+  text-decoration:none;
+  border-bottom:2px solid #56a0d3;
 }
 
-.devil {
-    background-color:#666;
-    padding:5em
-}
 
 #muggsybogues {
     font-family:Gill Sans,Verdana;
@@ -147,4 +146,17 @@ a {
     text-transform:lowercase;
     text-align:center;
     color:#eee
+}
+
+body {
+  text-align: center;
+  padding-top: 20px;  
+  color: white;
+  color: rgba(255,255,255,0.8);
+  background-color: #323232;
+  background: url(images/background-chalk.png) no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
