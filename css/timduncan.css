@@ -135,6 +135,7 @@ a {
     letter-spacing:2px;
     font-weight:lighter;
     color:#fff;
+    text-transform: none;
 }
 
 .devil {
