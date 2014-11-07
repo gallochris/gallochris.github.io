@@ -92,6 +92,7 @@ h4 {
 
 .jerrystackhouse { 
     max-width:540px;
+<<<<<<< HEAD
     padding:3em;
     margin-left: auto;
     margin-right: auto;
@@ -99,6 +100,14 @@ h4 {
 
 
 
+=======
+    padding:1em;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+>>>>>>> FETCH_HEAD
 img.hotdogs {
     display:block;
     margin-left:auto;
@@ -113,6 +122,15 @@ img.myface {
     display:block
 }
 
+<<<<<<< HEAD
+=======
+.unc {
+    background-color:#56a0d3;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em
+}
+>>>>>>> FETCH_HEAD
 
 a {
   font-family: Gill Sans, Verdana;
@@ -127,6 +145,13 @@ a {
   border-bottom:2px solid #56a0d3;
 }
 
+<<<<<<< HEAD
+=======
+.devil {
+    background-color:#666;
+    padding:1em
+}
+>>>>>>> FETCH_HEAD
 
 #muggsybogues {
     font-family:Gill Sans,Verdana;
@@ -147,6 +172,7 @@ a {
     text-align:center;
     color:#eee
 }
+<<<<<<< HEAD
 
 body {
   text-align: center;
@@ -160,3 +186,5 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+=======
+>>>>>>> FETCH_HEAD
