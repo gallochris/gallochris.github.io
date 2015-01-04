@@ -2,10 +2,6 @@ body {
     padding-top:20px;
     color:#000;
     background-color:#fff;
-    -moz-background-size:cover;
-    -webkit-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover
 }
 
 h1 {
@@ -57,58 +53,19 @@ h4 {
     padding:0
 }
 
-.bellybutton {
-    background-color:#F90;
-    font-size:18px;
-    font-family:Gill Sans,Verdana;
-    letter-spacing:2px;
-    font-weight:bolder;
-    color:#fff;
-    text-decoration:none;
-    padding:20px;
-    width:75%;
-    border-radius:3px;
-    display:block;
-    margin-left:auto;
-    margin-right:auto
-}
-
-.buttonbelly {
-    background-color:#56a0d3;
-    font-size:18px;
-    font-family:Gill Sans,Verdana;
-    letter-spacing:2px;
-    font-weight:bolder;
-    color:#fff;
-    text-decoration:none;
-    padding:20px;
-    width:75%;
-    border-radius:3px;
-    display:block;
-    margin-left:auto;
-    margin-right:auto
-}
 
 .rasheedwallace {
-    max-width:700px;
-    padding:4em;
-    margin-left:auto;
-    margin-right:auto
-}
-
-.jerrystackhouse {
     max-width:540px;
-    padding:1em;
     margin-left:auto;
     margin-right:auto
 }
 
 .carolina {
-    font-weight:700
+    font-weight:700;
 }
 
 .date {
-    color:#acacac
+    color:#acacac;
 }
 
 .stu {
@@ -123,7 +80,9 @@ h4 {
 img.hotdogs {
     display:block;
     margin-left:auto;
-    margin-right:auto
+    margin-right:auto;
+    max-width: 100%; 
+    height: auto;
 }
 
 img.myface {
@@ -175,7 +134,7 @@ img.myface {
     font-weight:lighter;
     text-transform:lowercase;
     text-align:center;
-    color:#eee
+    color:#eee;
 }
 
 .words p {
@@ -183,7 +142,7 @@ img.myface {
     line-height:29px;
     font-family:Georgia,"Times New Roman",Times,serif;
     color:#333;
-    text-align:left
+    text-align:left;
 }
 
 .words a {
@@ -193,7 +152,7 @@ img.myface {
     color:#333;
     letter-spacing:normal;
     text-decoration:none;
-    border-bottom:2px solid #56a0d3
+    border-bottom:2px solid #56a0d3;
 }
 
 .words li {
@@ -201,7 +160,7 @@ img.myface {
     line-height:29px;
     font-family:Georgia,"Times New Roman",Times,serif;
     color:#333;
-    text-align:left
+    text-align:left;
 }
 
 hr {
