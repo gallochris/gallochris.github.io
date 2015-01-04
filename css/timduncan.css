@@ -1,3 +1,13 @@
+body {
+    padding-top:20px;
+    color:#000;
+    background-color:#fff;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover
+}
+
 h1 {
     font-family:times,Times New Roman,times-roman,georgia,serif;
     color:#333;
@@ -17,7 +27,7 @@ h2 {
     letter-spacing:2px;
     font-weight:bolder;
     text-transform:uppercase;
-    color:#000;
+    color:#333;
     text-align:center
 }
 
@@ -46,7 +56,6 @@ h4 {
     margin:0;
     padding:0
 }
-
 
 .bellybutton {
     background-color:#F90;
@@ -80,18 +89,35 @@ h4 {
     margin-right:auto
 }
 
-.rasheedwallace { 
+.rasheedwallace {
     max-width:700px;
     padding:4em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left:auto;
+    margin-right:auto
 }
 
-.jerrystackhouse { 
+.jerrystackhouse {
     max-width:540px;
     padding:1em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left:auto;
+    margin-right:auto
+}
+
+.carolina {
+    font-weight:700
+}
+
+.date {
+    color:#acacac
+}
+
+.stu {
+    font-family:Georgia,"Times New Roman",Times,serif;
+    font-size:24px;
+    line-height:34px;
+    color:#333;
+    letter-spacing:normal;
+    text-decoration:none
 }
 
 img.hotdogs {
@@ -101,8 +127,8 @@ img.hotdogs {
 }
 
 img.myface {
-    width:150px;
-    height:150px;
+    width:130px;
+    height:130px;
     margin-left:auto;
     margin-right:auto;
     display:block
@@ -115,19 +141,6 @@ img.myface {
     padding:1em
 }
 
-a {
-  font-family: Gill Sans, Verdana;
-  font-size: 16px;
-  line-height: 32px;
-  letter-spacing: 2px;
-  font-weight: bolder;
-  text-transform: uppercase;
-  color: #fff;
-  letter-spacing:2px;
-  text-decoration:none;
-  border-bottom:2px solid #56a0d3;
-}
-
 .gus {
     font-family:Gill Sans,Verdana;
     font-size:18px;
@@ -135,8 +148,8 @@ a {
     letter-spacing:2px;
     font-weight:lighter;
     color:#fff;
-    text-transform: none;
-    border-bottom:1px solid #f90;
+    text-transform:none;
+    border-bottom:1px solid #f90
 }
 
 .devil {
@@ -151,7 +164,7 @@ a {
     letter-spacing:2px;
     font-weight:lighter;
     color:#fff;
-    text-align: left;
+    text-align:left
 }
 
 #randolphchildress {
@@ -165,15 +178,37 @@ a {
     color:#eee
 }
 
-body {
-  text-align: center;
-  padding-top: 20px;  
-  color: white;
-  color: rgba(255,255,255,0.8);
-  background-color: #323232;
-  background: url(http://hotdogsandeggs.com/images/background-chalk.jpg) no-repeat center center fixed;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.words p {
+    font-size:19px;
+    line-height:29px;
+    font-family:Georgia,"Times New Roman",Times,serif;
+    color:#333;
+    text-align:left
+}
+
+.words a {
+    font-family:Georgia,"Times New Roman",Times,serif;
+    font-size:19px;
+    line-height:29px;
+    color:#333;
+    letter-spacing:normal;
+    text-decoration:none;
+    border-bottom:2px solid #56a0d3
+}
+
+.words li {
+    font-size:19px;
+    line-height:29px;
+    font-family:Georgia,"Times New Roman",Times,serif;
+    color:#333;
+    text-align:left
+}
+
+hr {
+    border:0;
+    height:1px;
+    background-image:-webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+    background-image:-moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+    background-image:-ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+    background-image:-o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0))
 }
