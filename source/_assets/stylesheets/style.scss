@@ -1,7 +1,8 @@
 // Reset & Mixins ———————————————————————————— •
 // ——————————————————————————————————————————— •
-@charset UTF-8;
-@import globals/mixins,globals/reset,globals/grid;
+@charset "UTF-8";
+
+@import 'globals/mixins', 'globals/reset', 'globals/grid';
 // Base Styles ——————————————————————————————— •
 // ——————————————————————————————————————————— •
 body {
@@ -65,7 +66,7 @@ hr {
 @include responsive-break-point(800px) {
     .contentmax-width:1140px
 }
-}
+
 
 // Typography ———————————————————————————————— •
 // ——————————————————————————————————————————— •
@@ -313,5 +314,4 @@ ul {
 @media screen and (max-device-width: 480px) {
     html-webkit-text-size-adjust:100%;
     -ms-text-size-adjust:100%
-}
 }
