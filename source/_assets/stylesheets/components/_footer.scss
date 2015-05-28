@@ -1,0 +1,30 @@
+// Footer ———————————————————————————————————— •
+// ——————————————————————————————————————————— •
+
+.footer {
+  @include border-box;
+  margin: 3em auto;
+  width: 100%;
+  text-align: center;
+
+}
+.footer-logo {
+  margin: 3em auto 2em;
+  width: 160px;
+
+}
+@media all and (max-width: 848px) {
+  .footer-nav a {
+    display: inline-block;
+    padding: 18px 0;
+  }
+
+}
+// Footer: Desktop ——————————————————————————— •
+// ——————————————————————————————————————————— •
+
+@include responsive-break-point(768px) {
+  .footer {
+    max-width: 1140px;
+  }
+}
