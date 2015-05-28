@@ -401,7 +401,7 @@ h1 {
 .george {
     margin-left:auto;
     margin-right:auto;
-    display:block
+    display:block;
 }
 
 .people-text {
@@ -475,7 +475,7 @@ ol {
     font-size:18px;
     font-style:bold;
     line-height:normal;
-    padding-bottom:10px
+    padding-bottom:10px;
 }
 
 ul {
