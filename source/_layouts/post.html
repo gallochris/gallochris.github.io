@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<a id="top"></a>
+<div class="row">
+<div class="content blog">
+  <div class="eight columns offset by-two">
+  <h1 style="text-align: center">{{ page.title }}</h1>
+  <p class="blog-date">{{ page.date | date: '%B %d, %Y' }}</p>
+  <hr>
+     {{content}}
+<hr>
+
+<p class="blog-text"><img src="{% asset_path rock-on.png %}" alt="Rock on" class="emoji" />Thanks for reading!</p>
+<p style="text-align: center;" ><a href="{{ page.url }}/#top">Go back to top</a>
+<hr>
+</div>
+</div>
+</div>
+

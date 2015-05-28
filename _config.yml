@@ -1,0 +1,43 @@
+# ==========================
+# == Jekyll Configuration ==
+# ==========================
+markdown: rdiscount
+source: source
+destination: build
+permalink: pretty
+safe: false
+assets:
+  js_compressor:  uglifier
+  css_compressor: sass
+
+# ==========================
+# == Custom Configuration ==
+# ==========================
+
+title: Chris Gallo | Hot Dogs and Eggs
+subtitle: "The website of Chris Gallo."
+url: http://hotdogsandeggs.com
+description: "Chris Gallo spends his days making customers feel important at Highrise."
+navigation:
+ - title: About
+   url: /about/
+ - title: Blog
+   url: /blog/
+ - title: Say hi
+   url: /about/#contact
+
+gems:
+  - jekyll-redirect-from
+
+# ==========================
+# == Collections ==
+# ==========================
+
+collections:
+  people:
+    title: People
+    description: You can see a lot just by listening. Transcribed advice from real people.  
+    output: true
+    permalink: /people/:title/
+
+
