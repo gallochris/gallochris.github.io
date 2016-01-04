@@ -370,25 +370,25 @@ li {
 
 @media all and (max-width: 580px) {
 h1 {
-    font-size:32px;
-    line-height:25px
+    font-size:28px;
+    line-height:23px
 }
 
 .the-text {
-    font-size:24px;
+    font-size:22px;
     line-height:17px
 }
 }
 
 @media all and (max-width: 400px) {
 h1 {
-    font-size:28px;
+    font-size:30px;
     line-height:21px
 }
 
 .the-text {
-    font-size:20px;
-    line-height:13px
+    font-size:18px;
+    line-height:13px;
 }
 
 .boxes {
@@ -404,11 +404,22 @@ h1 {
 .boxes p{
     text-align: left;
     font-size: 14px;
-    line-height:16px
+    line-height:16px;
 }
 
 .boxes a{
     font-weight: bold;
+}
+
+p { 
+ font-size: 16px;
+ line-height: 26px;
+
+ }
+
+ li {
+    font-size:20px;
+    text-align: left;
 }
 
 }
@@ -438,6 +449,7 @@ h1 {
     margin-right:auto;
     display:block
 }
+
 
 .george {
     margin-left:auto;
@@ -509,7 +521,7 @@ blockquote {
 
 .the-text {
     font-size:28px;
-    line-height:1.4
+    line-height:1.4;
 }
 
 ol {
@@ -523,8 +535,10 @@ ul {
     font-size:18px;
     font-style:bold;
     line-height:25px;
-    padding-bottom:10px
+    padding-bottom:10px;
 }
+
+
 
 @media all and (max-width: 580px) {
 .description {
@@ -730,69 +744,4 @@ body.error h1 {
     line-height:2.4em;
 }
 
-// ——————————————————————————————————
-// Topic Guides
-// ——————————————————————————————————
 
-.home .topics {
-  margin-top: 6em;
-  text-align: center;
-  h1 {
-    padding-bottom: 0.4em;
-  }
-}
-
-
-
-.home .topic-guides {
-  li {
-    list-style-type: none;
-    margin-left: 0;
-  }
-}
-
-.home li.topic-guide {
-  display: inline-block;
-  margin: 12px;
-  padding: 1em;
-  width: 30%;
-  background: $color-light;
-  border: 1px solid $border;
-  @include border-radius(4px);
-  .title {
-    padding: 0;
-    margin: 0 0 8px 0;
-    font-size: 26px;
-    color: $blue-dark;
-  }
-  .description {
-    margin: 0;
-    font-size: 18px;
-    font-weight: 300;
-    color: $color-text;
-    line-height: 1.4;
-  }
-  .count {
-    color: $color-text;
-  }
-}
-
-// ---- Resize cards for smaller screens //
-
-@media all and (max-width: 1080px) {
-  .home li.topic-guide {
-    width: 44%;
-  }
-}
-
-@media all and (max-width: 767px) {
-  .home li.topic-guide {
-    width: 80%;
-  }
-  .home .topics {
-    margin-top: 2em;
-    h1 {
-      font-size: 26px;
-    }
-  }
-}
