@@ -13,12 +13,16 @@ subtitle: "The website of Chris Gallo."
 url: http://hotdogsandeggs.com
 description: "Chris Gallo spends his days making customers feel important at Highrise."
 navigation:
- - title: About
-   url: /about/
  - title: Blog
    url: http://blog.hotdogsandeggs.com
+ - title: People
+   url: http://people.hotdogsandeggs.com
  - title: Say hi
-   url: /about/#contact
+   url: mailto:chris@hotsdogsandeggs.com
+
+
+gems:
+ - jekyll-redirect-from
 
 
 

@@ -350,7 +350,7 @@ h2 {
 }
 
 h3 {
-    font-size:20px
+    font-size:23px
 }
 
 p {
@@ -604,7 +604,8 @@ nav a.active {
     display:inline-block;
     width:160px;
     margin-left:2em;
-    margin-top:-1em
+    margin-top:-1em;
+    border-bottom: none;
 }
 
 .navigation {
