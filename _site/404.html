@@ -5,10 +5,10 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 
   <head>
-    <title>{{ page.title }}</title>
+    <title>Whoops, couldn&rsquo;t find that on {{ site.title}}.</title>
     <meta name="google-site-verification" content="n-mul2Oky0NnGKK9E6OWAOfm76i008AWrhJzyzDxFq0" />
-    <meta name="title" content="{{ page.title }}">
-    <meta name="description" content="{{ site.description }}">
+    <meta name="title" content="Whoops, couldn&rsquo;t find that on {{ site.title}}.">
+    <meta name="description" content="Chris Gallo spends his days making customers feel important at Highrise.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="shortcut icon" href="/images/favicon.ico">
@@ -34,8 +34,44 @@
     <!-- end styles -->
   </head>
 
-  <body{% if page.class %} class="{{ page.class }}"{% endif %}>
-    {{ content }}
+  <body class="error">
+    <header class="content navigation" id="top" role="banner">
+  <a href="/" class="logo"><img src="/images/logo.png" alt="Hot dogs and eggs" /></a>
+
+  <nav class="navigation-links" role="navigation">
+    
+        
+        
+            <a href="/about/" >About</a>
+    
+        
+        
+            <a href="http://blog.hotdogsandeggs.com" >Blog</a>
+    
+        
+        
+            <a href="/about/#contact" >Say hi</a>
+    
+</nav>
+</header>
+
+ <div class="row">
+        <div class="content">
+            <div class="eight columns offset by-two">
+                <h1 style="text-align: center;">No one's here.</h1><img alt=
+                "George Costanzan 404" class="george" src=
+                "/images/george-peephole.gif"><br>
+                <br>
+
+                <h3 style="text-align: center;">Try <a href="/">going back
+                home.</a></h3>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   </body>
 </html>
