@@ -11,14 +11,12 @@ safe: false
 title: Chris Gallo | Hot Dogs and Eggs
 subtitle: "The website of Chris Gallo."
 url: http://hotdogsandeggs.com
-description: "Chris Gallo spends his days making customers feel important at Highrise."
+description: "Chris Gallo lives in Charlotte and works at Highrise, where he makes customers feel important."
 navigation:
  - title: Blog
    url: http://blog.hotdogsandeggs.com
  - title: People
    url: http://people.hotdogsandeggs.com
- - title: Say hi
-   url: https://twitter.com/cjgallo
 
 
 gems:
