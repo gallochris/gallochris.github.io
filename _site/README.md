@@ -5,7 +5,7 @@ This is the source for my personal website, [hotdogsandeggs.com](http://hotdogsa
 
 It's built with the help of the Internet. It uses [Jekyll](http://jekyllrb.com), and it's hosted on [GitHub pages](https://pages.github.com/). 
 
-There are 2 subdomains, [blog.hotdogsandeggs.com]((http://blog.hotdogsandeggs.com) and [people.hotdogsandeggs.com]((http://people.hotdogsandeggs.com), that live in separate repos. 
+There are 2 subdomains, [blog.hotdogsandeggs.com](http://blog.hotdogsandeggs.com) and [people.hotdogsandeggs.com](http://people.hotdogsandeggs.com), that live in separate repos. 
 
 A lot of the code written here is all an experiment. It was first built in 2014, and I know far more today than I did back then. There are more than a few examples that might not be the most efficient way to do things. Please keep in mind that this site is a playground for me to learn more about how to code and build a website. 
 
@@ -22,7 +22,7 @@ The site was inspired by [tomhaverfoods.com](http://tomhaverfoods.com). Reload t
 
 ### College Basektball Stats Help
 
-I'm a former sports information director, and love stats and sports. I built this site to help others find out more about college basketball advanced analytics. 
+I'm a former sports information director, and geek out about stats. I built this site to help others find out more about college basketball advanced analytics. 
 
 Check out the purpose and site here: [cbbstatshelp.com](http://cbbstatshelp.com)
 
