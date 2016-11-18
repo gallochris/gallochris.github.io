@@ -279,7 +279,7 @@ a {
     margin:-.2rem;
     padding:.2rem;
     text-decoration: none;
-    border-bottom:2px solid #56a0d3;
+    border-bottom:1px solid #56a0d3;
 }
 }
 
@@ -355,7 +355,7 @@ h3 {
 
 p {
     font-size:19px;
-    line-height:39px;
+    line-height:29px;
     padding-bottom:1em
 }
 
@@ -524,7 +524,7 @@ ol {
 ul {
     font-size:18px;
     font-style:bold;
-    line-height:25px;
+    line-height:29px;
     padding-bottom:10px;
 }
 
