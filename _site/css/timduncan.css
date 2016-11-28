@@ -350,7 +350,8 @@ h2 {
 }
 
 h3 {
-    font-size:23px
+    font-size:23px;
+    line-height:29px;
 }
 
 p {
@@ -517,7 +518,7 @@ blockquote {
 ol {
     font-size:18px;
     font-style:bold;
-    line-height:normal;
+    line-height:29px;
     padding-bottom:10px;
 }
 
