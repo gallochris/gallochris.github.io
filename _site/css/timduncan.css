@@ -9,7 +9,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 }
 
 body {
-    line-height:1
+    line-height:1;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
@@ -19,6 +19,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 .stripe {
     border-left: 1px dotted #56a0d3;
     padding: 5px;
+}
+
+.zlatan { 
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
 }
 
 nav ul {
@@ -413,10 +419,17 @@ h1 {
 }
 
 p { 
- font-size: 16px;
- line-height: 26px;
+ font-size: 14px;
+ line-height: 24px;
 
  }
+
+ .zlatan { 
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    padding-bottom: 1em; 
+}
 
  li {
     font-size:16px;
