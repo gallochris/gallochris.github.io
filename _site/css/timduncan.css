@@ -375,8 +375,10 @@ p {
     text-align:center
 }
 
-li {
-    margin-left:18px
+li, ol, ul {
+    margin-left:18px;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 @media all and (max-width: 580px) {
@@ -431,8 +433,8 @@ p {
     padding-bottom: 1em; 
 }
 
- li {
-    font-size:16px;
+ ul, ol, li {
+    font-size:14px;
     text-align: left;
 }
 
