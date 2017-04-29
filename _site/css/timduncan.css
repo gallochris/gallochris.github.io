@@ -682,8 +682,12 @@ nav a.active {
 
 .footer-logo {
     margin:1em auto 1em;
-    width:160px
+    width:140px
 }
+
+.footer img { 
+max-width: 40%;
+ }
 
 @media all and (max-width: 848px) {
 .footer-nav a {
