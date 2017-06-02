@@ -33,34 +33,32 @@
     <!-- styles -->
     <link href="/css/timduncan.css" rel="stylesheet" type="text/css">
     <!-- end styles -->
+    <!-- js -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- end js -->
   </head>
 
   <body>
-    <header class="content navigation" id="top" role="banner">
-  <a href="/" class="logo"><img src="/images/logo.png" alt="Hot dogs and eggs" /></a>
+    <div>
+  <header>
+  <span>You're visiting the online home of <a href="https://hotdogsandeggs.com/">Chris Gallo</a>.</span>
+    </div>
+  </header>
 
-  <nav class="navigation-links" role="navigation">
-    
-        
-        
-            <a href="http://blog.hotdogsandeggs.com" >Blog</a>
-    
-        
-        
-            <a href="http://people.hotdogsandeggs.com" >People</a>
-    
-</nav>
-</header>
 
-<div class="eight columns offset by-two">
-        <div class="content">
-                <h1>Hot dogs and eggs</h1>
+<script>
+$(document).ready(function(){
+$('a').click(function(e){
+e.preventDefault();
+$("#content").load($(this).attr('href'));
+});
+});
+  </script>
+                <h1>What's with the name hot dogs and eggs?</h1>
                 <hr>
-                <h2>What's in a name?</h2>
-                <br>
-                <p>Most people claim their own name as a domain. My namesakes at Ernest and Julio Gallo Winery have commandeered domains that include the word "gallo" in them.</p>
+                <p>Most people claim their own name as a domain (chrisgallo.com). But my namesakes at Ernest and Julio Gallo Winery have commandeered domains that include the word "gallo" in them.</p>
 
-                <p>So when I started this site a few years ago, I was stumped
+                <p>So when I started this site in 2014, I was stumped
                 on a domain name. And then I heard my grandma talking about
                 making hot dogs and eggs for me as a kid. I kept saying it all
                 day. Hot dogs and eggs. It made me smile :)</p>
@@ -68,27 +66,16 @@
                 <p>I bought the domain name and laughed. But it stuck. It's
                 goofy and different, just like me. A curious combination, hot
                 dogs and eggs.</p>
-                <p>The name has come to mean much more to me. It's part of my philosophy. And it represents what I believe.</p>
-                <hr>
-                <br>
-                <p>The best question is an anwser.</p>
-                <p>Listen to what people do, not just what they say.</p>
-                <p>Less is more.</p>
-                <p>Simple doesn't mean easy.</p>
-                <p>Trust is built by giving it first.</p>
-                <p>Don't ever ruin an apology with an excuse.</p>
-                <p>Small beats big.</p>
-                <p>If it's not useful or entertaining, it's useless.</p>
-                <p>Do the right thing even when no one is watching.</p>
-                </div>
-                </div>
+
+                <p>The name has come to mean much more to me. It's part of my philosophy. And it represents what I <a href="/content.html">believe</a>.</p>
+                <div id="content"></div>
+                
+
+
 
 
 <footer class="footer" role="contentinfo">
-	<div class="footer-logo">
 		<span style="font-size: 12px;">© 2014 - 2017</span>
-		<a href="http://hotdogsandeggs.com/" style="border-bottom: none;"><img src="/images/logo.png" alt="Hot Dogs and Eggs" /></a>
-	</div>
 </footer>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
