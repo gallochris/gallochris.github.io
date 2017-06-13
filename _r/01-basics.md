@@ -1,7 +1,7 @@
 ---
 title: "R Basics"
 layout: manifesto
-permalink: /r/basics
+permalink: r/basics
 ---
 
 # Basic Building Blocks of R 
