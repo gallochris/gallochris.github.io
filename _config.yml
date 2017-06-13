@@ -27,7 +27,7 @@ collections:
     title: R Programming
     description: Open source langauge for statistics and graphics. Data scientists use it. These notes are from the lessons in the <a href="http://swirlstats.com/students.html" >swirl package</a> in R Studio.
     output: true
-    permalink: r/:title
+    permalink: /r/:title
 
 
 gems:
