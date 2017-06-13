@@ -15,8 +15,8 @@ layout: manifesto
 	          {% endfor %}
 
 <ul>
-{% for rs in site.R %}
-    <li><a href="{{ site.baseurl }}{{ rs.permalink }}">{{ rs.title }}</a></li>
+{% for r in site.rs %}
+    <li><a href="{{ site.baseurl }}{{ r.permalink }}">{{ r.title }}</a></li>
 {% endfor %}
 </ul>
 
