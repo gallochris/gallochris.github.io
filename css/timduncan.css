@@ -53,3 +53,20 @@ list-style: none;
     margin-bottom: 2rem;
   }
 
+.post_navigation {
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.post_navigation .left {
+  float: left;
+}
+
+.post_navigation .right {
+float: right;
+}
+
+
+
+
