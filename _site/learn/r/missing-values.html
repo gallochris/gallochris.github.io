@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+  <head>
+    <title>Missing Values</title>
+    <meta name="google-site-verification" content="n-mul2Oky0NnGKK9E6OWAOfm76i008AWrhJzyzDxFq0" />
+    <meta name="title" content="Missing Values">
+    <meta name="description" content="Chris Gallo lives in Charlotte and works at Highrise, where he makes customers feel important.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <meta content="L-ZoUji3D4K6CNyxdq-cLivhr8XI0ybkaBQb6lV3LG0" name=
+    "google-site-verification">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,700italic,100,100italic,300,300italic,500,400italic,500italic' rel='stylesheet' type='text/css'>
+    <link href="https://hotdogsandeggs.com/" rel="canonical">
+    <!-- start GA-->
+
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-52956118-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+    <!-- end GA -->
+
+    <!-- styles -->
+    <link href="/css/timduncan.css" rel="stylesheet" type="text/css">
+    <!-- end styles -->
+    <!-- js -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- end js -->
+  </head>
+
+  <body>
+    <div>
+  <header>
+  <span>You're visiting the online home of <a href="https://hotdogsandeggs.com/" >Chris Gallo</a> and this is what I'm <a href="https://hotdogsandeggs.com/learn/" > learning</a> right now</span>.
+    </div>
+  </header>
+
+
+<h1 id="missing-values">Missing Values</h1>
+
+<p>Section 5 of <a href="http://swirlstats.com/students.html">swirl</a> covers missing values. Important because there might be an underlying cause or pattern for <em>why</em> the values are missing.</p>
+
+<p>2 types:</p>
+
+<ol>
+  <li>
+    <p><code class="highlighter-rouge">NA</code> represents any value that is missing or not available.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">NaN</code> means not a number, <code class="highlighter-rouge">0 / 0</code> and <code class="highlighter-rouge">Inf - Inf</code> both result in <code class="highlighter-rouge">NaN</code></p>
+  </li>
+</ol>
+
+<p>Let’s focus on NA for this section.</p>
+
+<h2 id="examples">Examples</h2>
+
+<p><code class="highlighter-rouge">x &lt;- c(4, NA, 5, NA)</code> and <code class="highlighter-rouge">x * 3</code> results in <code class="highlighter-rouge">12, NA, 15, NA</code></p>
+
+<p>These next couple examples are verbatim for swirl.</p>
+
+<p>First, <code class="highlighter-rouge">y &lt;- rnorm(1000)</code> creates a vector containing 1000 draws from a standard normal distribution.</p>
+
+<p>Next, <code class="highlighter-rouge">z &lt;- rep(NA, 1000)</code> creates a vector containing 1000 NAs.</p>
+
+<p>And finally, <code class="highlighter-rouge">my_data &lt;- sample(c(y, z), 100)</code> selects 100 elements at random for these 2000 values (combined y and z). It’s random, so you don’t know how many NA’s will be created or what positions they’ll occupy.</p>
+
+<p>Use the <code class="highlighter-rouge">is.na()</code> function tells you whether each element of a vector is NA.</p>
+
+<p>For example, <code class="highlighter-rouge">my_na &lt;- is.na(my_data)</code> and print <code class="highlighter-rouge">my_na</code> results in a series of TRUE and FALSE values.</p>
+
+<p>TRUE means a corresponding value is NA. FALSE means it’s a random draw of standard deviation or not a NA.</p>
+
+<p><strong>Important</strong>: NA isn’t a value. It’s a placeholder. Be cautious when using logical expressions with NA’s because one NA renders an expression incomplete.</p>
+
+<p>This means <code class="highlighter-rouge">my_data == NA</code> doesn’t result in the same as <code class="highlighter-rouge">is.na()</code>. It would simply print a bunch of NA’s because it’s not a value.</p>
+
+<h2 id="find-total-amount-of-nas">Find Total Amount of NA’s</h2>
+
+<p>In R, TRUE has the value of 1 and FALSE has the value of 0.</p>
+
+<p>If you take the <code class="highlighter-rouge">sum()</code> of TRUEs and FALSEs, you get total number of TRUEs.</p>
+
+<p>For example, if <code class="highlighter-rouge">sum(my_na)</code> results in <code class="highlighter-rouge">54</code> it means you have 54 total NA’s.</p>
+
+
+<footer class="footer" role="contentinfo">
+		<span>See more <a href="https://hotdogsandeggs.com/learn/">notes</a>.</span>
+		<br>
+		<span class="date"> Last updated June 14, 2017</span>
+		<br>
+		<span>© 2014 - 2017</span>
+</footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  </body>
+</html>

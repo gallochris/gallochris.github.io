@@ -1,6 +1,6 @@
 ---
 title: "R Basics"
-layout: manifesto
+layout: learn
 permalink: /learn/r/basics
 ---
 
@@ -8,11 +8,11 @@ permalink: /learn/r/basics
 
 In the first section of <a href="http://swirlstats.com/students.html" >swirl's</a> R package, you learn the basics of R. Here are my notes. 
 
-R is a calculator on steriods. Like any programming langauage, a big advantage is you eliminate repeating the same steps over and over again. Automation. 
+R is a calculator on steroids. Like any programming language, a big advantage is you eliminate repeating the same steps over and over again. Automation. 
 
 ## Variables
 
-A variable stores results of basic arithmitec (`+, -, /, *, sqrt(), ^2`). 
+A variable stores results of basic arithmetic (`+, -, /, *, sqrt(), ^2`). 
 
 Assign a variable by using the less-than sign and a dash. This `<-` creates an *arrow*.
 
@@ -28,7 +28,7 @@ You can also **combine variables** and make them interact with one another.
 
 ## Vectors
 
-A vector is a small collection of numbers. Numeric vectors are the simplest form of data structure in R. 
+A vector is a small collection of numbers/characters, etc. Numeric vectors are the simplest form of data structure in R. 
 
 The number `1` is a vector in the length of one. 
 
@@ -67,6 +67,7 @@ In `c(5, 6, 7, 8) + c(10, 0, 1)` :
 ## Tricks and Shortcuts 
 
 
+* ?+function_name shows helpful information, i.e. `?c` or `?`:``
 * Use the **up arrow** on your keyboard to cycle through previous commands and make any changes. 
 * Type the first few letters of a variable name and click **tab** to locate variable to auto-complete it. 
 * Bonus: Ctrl+L clears the console. 

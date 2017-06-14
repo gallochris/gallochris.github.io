@@ -40,3 +40,16 @@ footer {
   color: #acacac;
  }
 
+.bmo { 
+  line-height: 1.5;
+ }
+
+ .bmo ul { 
+list-style: none;
+  }
+
+  .bmo li { 
+list-style: none;
+    margin-bottom: 2rem;
+  }
+

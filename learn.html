@@ -14,7 +14,7 @@ layout: manifesto
 <p class="count">{{ collection.topic_count | pluralize: "article" }}</p>
 	          {% endfor %}
 
-<ul>
+<ul class="bmo">
 {% for r in site.rs %}
     <li><a href="{{ site.baseurl }}{{ r.permalink }}">{{ r.title }}</a></li>
 {% endfor %}
