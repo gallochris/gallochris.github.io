@@ -1,8 +1,0 @@
-	<article>
-	<ul class="bmo">
-		<li><a href="{{ .Permalink }}"><b>{{ .Title }}</b></a></li>
-		{{ range .Params.tags }}
-		<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-		</ul>
-		{{ end }}
-	</article>
