@@ -1,0 +1,11 @@
+<hr>
+<div class="please">See all <a href="https://hotdogsandeggs.com/learn/">notes</a></div>
+<div class="post_navigation">
+{{ if .Prev }}
+  <a href="{{ .Prev.Permalink }}" class="post_navigation left">{{ .Prev.Title }}</a>
+{{ end }}
+{{ if and .Prev .Next }} {{ end }}
+{{ if .Next }}
+  <a href="{{ .Next.Permalink }}" class="post_navigation right">{{ .Next.Title }}</a>
+{{ end }}
+</div>
