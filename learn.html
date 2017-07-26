@@ -1,0 +1,22 @@
+---
+title: "Chris Gallo | Learn"
+layout: manifesto
+---
+
+<header>     
+<h1>What I'm Learning Lately</h1> 
+</header>
+
+
+{% for collection in site.collections %}
+<h2>{{ collection.title }}</h2></a>
+<p class="description">{{ collection.description }}</p>
+<p class="count">{{ collection.topic_count | pluralize: "article" }}</p>
+	          {% endfor %}
+
+<ul class="bmo">
+{% for r in site.rs %}
+    <li><a href="{{ site.baseurl }}{{ r.permalink }}">{{ r.title }}</a></li>
+{% endfor %}
+</ul>
+
