@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Workspaces and Files</title>
+	<meta name="description" content="Chris Gallo lives in Charlotte and works at Highrise, where he makes customers feel important.">
+	<meta name="author" content="Chris Gallo">
+	
+	<link rel="stylesheet" href="https://hotdogsandeggs.com/css/timduncan.css">
+    
+    
+     <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-52956118-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+    
+    <meta content="L-ZoUji3D4K6CNyxdq-cLivhr8XI0ybkaBQb6lV3LG0" name="google-site-verification">
+
+    <meta name="google-site-verification" content="n-mul2Oky0NnGKK9E6OWAOfm76i008AWrhJzyzDxFq0" />
+	
+	<meta name="generator" content="Hugo 0.25.1" />
+</head>
+<body>
+
+
+<div class="please">
+  <header>
+  <span>You’re reading <a href="https://hotdogsandeggs.com" >Chris Gallo's</a> notes on learning R, view a list of <a href ="https://hotdogsandeggs.com/learn" >all notes here</a>.</span>
+    </div>
+  </header>
+	<main>
+			<div>
+				
+
+<h1 id="workspaces-and-files">Workspaces and Files</h1>
+
+<p>The R package, <a href="http://swirlstats.com/students.html" >swirl</a>, describes how to use your workspace in R on your own machine.</p>
+
+<p>R uses a common API to interact with files.</p>
+
+<h2 id="special-functions-and-commands">Special Functions and Commands</h2>
+
+<p><code>getwd()</code> - determines current working directory on your machine</p>
+
+<p><code>ls()</code> - lists all the objects in your workspace, similar to the Unix command <code>ls</code></p>
+
+<p><code>list.files()</code> or <code>dir()</code> - lists all the files in your working directory</p>
+
+<p><code>args()</code> - shows what arguments a function can take, example: <code>args(list.files)</code></p>
+
+<p><strong>Assign a variable</strong> to the current working directory by entering <code>old.dir &lt;- getwd()</code></p>
+
+<p><code>dir.create()</code> - creates a directory in the current working directory, i.e. <code>dir.create(&quot;testdir&quot;)</code></p>
+
+<p><code>setwd()</code> - sets current working direction, i.e. <code>setwd(&quot;testdir&quot;)</code></p>
+
+<p><code>file.create()</code> - creates a file in your current working directory, i.e. <code>file.create(&quot;mytest.R&quot;)</code></p>
+
+<p><code>file.exists()</code> - check to see if a file exists in a directory, useful when using directories with lots of files</p>
+
+<p><code>file.info()</code> - shows the contents or info in the file, i.e. <code>file.info(&quot;mytest.R&quot;)</code></p>
+
+<p><code>file.rename()</code> - renames file, i.e. <code>file.rename(&quot;mytest.R&quot;, &quot;mytest2.R&quot;)</code> changes name from <code>mytest.R</code> to <code>mytest2R</code></p>
+
+<p><code>file.remove()</code> - removes a file from directory</p>
+
+<p><code>file.copy()</code> - copies a file in a directory, i.e. <code>file.copy(&quot;mytest2.R&quot;, &quot;mytest3.R&quot;)</code> creates a copy with the name <code>mytest3.R</code></p>
+
+<p><code>file.path()</code> - provides relative path of file, i.e. <code>file.path(&quot;mytest3.R&quot;)</code></p>
+
+<p><code>recursive</code> - must be set to <code>recursive = TRUE</code> to create nested directories, i.e. <code>dir.create(file.path('testdir2', 'testdir3'), recursive = TRUE)</code> creates a directory in the current working directory called <code>&quot;testdir2&quot;</code> and a subdirectory for it called <code>&quot;testdir3&quot;</code> all at once.</p>
+
+
+<hr>
+<div class="please">See all <a href="https://hotdogsandeggs.com/learn/">notes</a></div>
+<div class="post_navigation">
+
+  <a href="https://hotdogsandeggs.com/learn/r/basics/" class="post_navigation left">R Basics</a>
+
+ 
+
+  <a href="https://hotdogsandeggs.com/learn/r/sequences-of-numbers/" class="post_navigation right">Sequences of Numbers</a>
+
+</div>
+
+			</div>
+	</main>
+	<footer class="footer" role="contentinfo">
+		<span class="date"> Last updated Jul 26, 2017</span>
+		<br>
+		<span>&copy; 2014 - 2017</span>
+	</footer>
+</body>
+</html>

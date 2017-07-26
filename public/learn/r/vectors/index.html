@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Types of Vectors</title>
+	<meta name="description" content="Chris Gallo lives in Charlotte and works at Highrise, where he makes customers feel important.">
+	<meta name="author" content="Chris Gallo">
+	
+	<link rel="stylesheet" href="https://hotdogsandeggs.com/css/timduncan.css">
+    
+    
+     <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-52956118-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+    
+    <meta content="L-ZoUji3D4K6CNyxdq-cLivhr8XI0ybkaBQb6lV3LG0" name="google-site-verification">
+
+    <meta name="google-site-verification" content="n-mul2Oky0NnGKK9E6OWAOfm76i008AWrhJzyzDxFq0" />
+	
+	<meta name="generator" content="Hugo 0.25.1" />
+</head>
+<body>
+
+
+<div class="please">
+  <header>
+  <span>You’re reading <a href="https://hotdogsandeggs.com" >Chris Gallo's</a> notes on learning R, view a list of <a href ="https://hotdogsandeggs.com/learn" >all notes here</a>.</span>
+    </div>
+  </header>
+	<main>
+			<div>
+				
+
+<h1 id="types-of-vectors">Types of Vectors</h1>
+
+<p>Types of vectors covered in section 4 of <a href="http://swirlstats.com/students.html" >swirl</a>.</p>
+
+<ol>
+<li><p>atomic vectors: exactly one data type</p></li>
+
+<li><p>lists: multiple data types</p></li>
+</ol>
+
+<h2 id="types-of-atomic-vectors">Types of Atomic Vectors</h2>
+
+<ul>
+<li>numeric</li>
+<li>logical</li>
+<li>character</li>
+<li>integer</li>
+<li>complex</li>
+</ul>
+
+<h2 id="logical-vectors">Logical Vectors</h2>
+
+<p>Contain the values TRUE, FALSE, and NA (not available).</p>
+
+<p>For example, <code>num_vect &lt;- c(0.4, 45, -5, 77)</code> and <code>tf &lt;- num_vect &lt; 1</code> results in a vector of 4 logical values: <code>TRUE FALSE TRUE FALSE</code></p>
+
+<p><strong>Logical operators</strong>: <code>&lt;</code>, <code>&gt;=</code>, <code>&gt;</code>, <code>&lt;=</code>, <code>==</code> (exact equality), and <code>!=</code> (for inequality).</p>
+
+<p>If you have 2 logical expressions, A and B, use R to see if:</p>
+
+<ol>
+<li><p>at least 1 is TRUE with <code>A **|** B</code> (<strong>logical or</strong>, known as an union)</p></li>
+
+<li><p>or both are TRUE with <code>A **&amp;** B</code> (<strong>logical and</strong> known as an intersection)</p></li>
+
+<li><p><code>!A</code> is the negation of <code>A</code>, TRUE when <code>A is FALSE</code> and vice versa</p></li>
+</ol>
+
+<p>In short &hellip;</p>
+
+<ul>
+<li><code>|</code> means at least one is <code>TRUE</code>.</li>
+<li><code>&amp;</code> means both are <code>TRUE</code></li>
+</ul>
+
+<h2 id="3-examples">3 Examples</h2>
+
+<ol>
+<li><p><code>(3 &gt; 5) &amp; (4 == 4)</code> results in <code>FALSE</code></p></li>
+
+<li><p><code>(TRUE == TRUE) | (TRUE == FALSE)</code> results in <code>TRUE</code></p></li>
+
+<li><p><code>((111 &gt;= 111) | !(TRUE)) &amp; ((4 + 1) == 5)</code> results in <code>TRUE</code></p></li>
+</ol>
+
+<h2 id="character-vectors">Character Vectors</h2>
+
+<p>Double-quotes are used to distinguish character vectors.</p>
+
+<p>For example, <code>my_char &lt;- c(&quot;My&quot;, &quot;name&quot;, &quot;is&quot;)</code> results in <code>&quot;My&quot; &quot;name&quot; &quot;is&quot;</code></p>
+
+<p>Use the <code>paste()</code> function to join together the elements in a continuous character string.</p>
+
+<p><code>paste(my_char, collapse = &quot; &quot;)</code> results in <code>&quot;My name is&quot;</code></p>
+
+<p>Use the <code>collapse</code> argument to  join together the elements and separate them with single spaces.</p>
+
+<p>The <code>paste()</code> can also be used to join the elements of multiple character vectors.</p>
+
+<p>For example, <code>paste(&quot;Hello&quot;, &quot;world!&quot;, sep = &quot; &quot;)</code> results in <code>&quot;Hell world!&quot;</code>. It separates the joined elements with a single space.</p>
+
+<p><strong>Remember</strong>: Vectors recycle when they are different lengths.</p>
+
+<p>For example, <code>paste(LETTERS, 1:4, sep = &quot;-&quot;)</code> results in R recycling or repeating 1:4 until it matches the length of LETTERS (the alphabet) because the character vector LETTERS is longer than the numeric vector 1:4.</p>
+
+
+<hr>
+<div class="please">See all <a href="https://hotdogsandeggs.com/learn/">notes</a></div>
+<div class="post_navigation">
+
+  <a href="https://hotdogsandeggs.com/learn/r/sequences-of-numbers/" class="post_navigation left">Sequences of Numbers</a>
+
+ 
+
+  <a href="https://hotdogsandeggs.com/learn/r/missing-values/" class="post_navigation right">Missing Values</a>
+
+</div>
+
+			</div>
+	</main>
+	<footer class="footer" role="contentinfo">
+		<span class="date"> Last updated Jul 26, 2017</span>
+		<br>
+		<span>&copy; 2014 - 2017</span>
+	</footer>
+</body>
+</html>

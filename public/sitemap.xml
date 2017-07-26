@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/learn/r/basics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/learn/r/workspaces-files/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/learn/r/sequences-of-numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/learn/r/vectors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/learn/r/missing-values/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/learn/r/subsetting-vectors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/learn/r/matrices-data-frames/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/learn/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/resume/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/dale/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/manifesto/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
