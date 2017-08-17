@@ -1,0 +1,8 @@
+baseURL = "https://hotdogsandeggs.com/"
+languageCode = "en-us"
+title = "Chris Gallo | Home"
+
+[params]
+
+    author = "Chris Gallo"
+    description = "Chris Gallo lives in Charlotte and works at Highrise, where he makes customers feel important."
