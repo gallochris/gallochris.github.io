@@ -31,8 +31,33 @@
   </url>
   
   <url>
-    <loc>https://hotdogsandeggs.com/categories/</loc>
+    <loc>https://hotdogsandeggs.com/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotdogsandeggs.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotdogsandeggs.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hotdogsandeggs.com/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotdogsandeggs.com/"
+                />
   </url>
   
   <url>
@@ -53,11 +78,6 @@
   
   <url>
     <loc>https://hotdogsandeggs.com/manifesto/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hotdogsandeggs.com/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
