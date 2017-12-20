@@ -30,8 +30,6 @@ Listen to what people **do**, not just what they **say**.
 
 *Less* is more.
 
-Don't ever ruin an *apology* with an *excuse*.
-
 *Small* beats big.
 
 If it's not **useful or entertaining**, it's useless.

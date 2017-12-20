@@ -14,36 +14,19 @@ track of who you talk to, so you're prepared to do business. My job is
 to make the people that use Highrise [feel
 important](https://blog.hotdogsandeggs.com/listen-to-what-people-do/).
 
-* * * * *
+* * * 
 
-### Writing
+### Make Things and Share What You Learn
 
-I share what I learn on [my blog](https://blog.hotdogsandeggs.com). My
-writing has been published in other places on the web like [Signal v.
-Noise](https://m.signalvnoise.com/why-you-should-care-less-7ee81c20240a#.v2mrkrbb8)
-and [The Secondary
-Break](http://www.thesecondarybreak.us/carolinas-frequent-fouler/).
+I enjoy trying to make things with computers, and I've learned how to build my own static websites. 
 
-* * * * *
+When I couldn't find old UNC basketball box scores, I built [dadgumboxscores.com](http://dadgumboxscores.com/) to solve it. 
 
-### Projects
+Out of frustration to learn advanced college basketball statistics, I put together documentation, [cbbstatshelp.com](https://cbbstatshelp.com/), to make it easier for others. 
 
-Every so often, I transcribe interesting interviews and talks. I call it
-**[What They Said](https://people.hotdogsandeggs.com/)**. It's one of
-the ways I learn from people I admire, and it's a [helpful
-resource](https://twitter.com/gbenedict/status/611158815715622912) for
-others too. One of my favorites is this transcription of [Manoj
-Bhargava's](http://people.hotdogsandeggs.com/manoj-bhargava) talk.
+It's important to share what you learn, and I try to do so on [my blog](https://blog.hotdogsandeggs.com) and other places on the web like [Signal v.
+Noise](https://m.signalvnoise.com/why-you-should-care-less-7ee81c20240a#.v2mrkrbb8).
 
-I also love to try to make things with computers too. Here are a few
-other static sites I've put together.
+Learning from others is powerful too, and every so often, I transcribe interesting interviews and talks. I call it [What They Said](https://people.hotdogsandeggs.com/). One of my favorites is this transcription of [Manoj Bhargava’s](https://people.hotdogsandeggs.com/manoj-bhargava/) talk.
 
--   [cbbstatshelp.com](https://cbbstatshelp.com/): learn about advanced
-    analytics for college basketball.
--   [dadgumboxscores.com](http://dadgumboxscores.com/): find any UNC
-    men's basketball box score since 2003-2004.
--   [dalecarnegieismyhomeboy.com](https://hotdogsandeggs.com/dale): all
-    30 principles from *How to Win Friends and Influence People*
-
-* * * * *
-
+* * * 
