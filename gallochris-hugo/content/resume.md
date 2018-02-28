@@ -99,7 +99,7 @@ on the web on my own. Here are a few static sites I've put together.
     advanced analytics for college basketball.
 -   [dadgumboxscores.com](https://dadgumboxscores.com): find any UNC
     men's basketball box score since 2003-2004.
--   [dalecarnegieismyhomeboy.com](http://dalecarnegieismyhomeboy.com/):
+-   [dalecarnegieismyhomeboy.com](https://hotdogsandeggs.com/dale/):
     all 30 principles from *How to Win Friends and Influence People*.
 -   [people.hotdogsandeggs.com](http://people.hotdogsandeggs.com/):
     transcribed advice from interesting interviews and talks.
