@@ -8,15 +8,9 @@ I'm Chris Gallo.
 And this is [hot dogs and eggs](/manifesto). It's my little piece of the
 world wide web. A place for me to {{< yellow "stay curious." >}}
 
-I spend my days working with six lovely people at
-[Highrise](https://highrisehq.com). We make software to help you keep
-track of who you talk to, so you're prepared to do business. My job is
-to make the people that use Highrise [feel
-important](https://blog.hotdogsandeggs.com/listen-to-what-people-do/).
-
 * * * 
 
-### Make Things and Share What You Learn
+### Make Things & Share What You Learn
 
 I enjoy trying to make things with computers, and I've learned how to build my own static websites. 
 
