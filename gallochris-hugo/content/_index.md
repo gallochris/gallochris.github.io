@@ -2,7 +2,7 @@
 title: Chris Gallo | Home
 ---
 
-I'm Chris Gallo.
+Hi, I'm Chris.
 ================
 
 And this is [hot dogs and eggs](/manifesto). It's my little piece of the
@@ -10,16 +10,26 @@ world wide web. A place for me to {{< yellow "stay curious." >}}
 
 * * * 
 
-### Make Things & Share What You Learn
+## About me
 
-I enjoy trying to make things with computers, and I've learned how to build my own static websites. 
+I run customer operations for software products from my home in Charlotte, North Carolina. My skills include email/phone support, quality assurance, documentation development, product management, and general communication. 
+
+I enjoy working on tough problems with small teams. My approach to customer operations is to keep product development, sales, and support all in sync because customers deserve an experience that leaves them feeling important. 
+
+Today, I work at [Emburse](https://www.emburse.com/), where we help people manage business expenses. 
+
+* * * 
+
+## Making Things 
+
+I enjoy trying to make things with computers and build my own static websites or tools. 
 
 When I couldn't find old UNC basketball box scores, I built [dadgumboxscores.com](http://dadgumboxscores.com/) to solve it. 
 
 Out of frustration to learn advanced college basketball statistics, I put together documentation, [cbbstatshelp.com](https://cbbstatshelp.com/), to make it easier for others. 
 
-It's important to share what you learn, and I try to do so on [my blog](https://blog.hotdogsandeggs.com) and other places on the web.
+I randomly share what I learn on [my blog](https://blog.hotdogsandeggs.com) and [other places](https://m.signalvnoise.com/why-you-should-care-less-7ee81c20240a) on the web.
 
-Learning from others is powerful too, and every so often, I transcribe interesting interviews and talks. I call it [What They Said](https://people.hotdogsandeggs.com/). One of my favorites is this transcription of [Manoj Bhargava’s](https://people.hotdogsandeggs.com/manoj-bhargava/) talk.
+Every so often, I transcribe interesting interviews and talks. It's a bit weird. I call it [What They Said](https://people.hotdogsandeggs.com/). One of my favorites is this transcription of [Manoj Bhargava’s](https://people.hotdogsandeggs.com/manoj-bhargava/) talk.
 
 * * * 

@@ -4,8 +4,25 @@ type: resume
 layout: resumetime
 ---
 
-It's my job to make customers feel important. Three principles that help
-me do that:
+HOW MY BOSS DESCRIBES ME
+----------
+
+* * * * *
+
+> I hired Chris because he was already doing support for me at Draft for free and I hadn’t even asked him to :) He’s incredibly ambitious and helpful in every aspect of your business, way beyond typical support. He’ll run your business if you want him to. I promise you, customers will write in to you about how much they love Chris. 
+
+> [Nathan Kontny, former CEO of Highrise](https://medium.com/@natekontny/moving-on-from-highrise-94fb26df67e7) 
+
+HOW I DESCRIBE ME
+----------
+
+* * * * *
+
+I've run customer operations for software products from my home in Charlotte, North Carolina for five plus years. My skills include email/phone support, quality assurance, documentation development, product management, and general communication. 
+
+My approach to customer operations is to keep product development, sales, and support all in sync because customers deserve an experience that leaves them feeling important. 
+
+Three principles that help me do that:
 
 1.  [Listen to what people
     do](http://blog.hotdogsandeggs.com/listen-to-what-people-do/), and
@@ -15,21 +32,35 @@ me do that:
 3.  Suggest [workarounds](http://blog.hotdogsandeggs.com/workarounds/).
     We're all better when we're resourceful.
 
+* * * * *
+
 EXPERIENCE
 ----------
+
+### Emburse: [emburse.com](https://www.emburse.com/)
+
+Head of customer operations since April 2018. Employee number five of a team that helps people manage business expenses. We're aiming to be an expense management platform for small and large businesses. 
+
+My responsibilites include 
+
+-   Managing all email and phone support for customers
+-   Developing the product's first iteration of documentation
+-   Overseeing a migration to a new card processor for all customers
+-   Updating the marketing site via copy edit and pull requests 
+-   Doing quality assurance to make sure the product performs properly
 
 * * * * *
 
 ### Highrise: [highrisehq.com](http://highrisehq.com)
 
-Head of customer support since September 30, 2014. Part of the small
+Head of customer support from September 30, 2014 to March 31, 2018. Part of the small
 seven-person team tasked with bringing the
 [37Signals](https://signalvnoise.com/posts/3770-big-news-for-highrise)
-product back to life. I've worked remotely my entire time here. The
-**biggest lesson I've learned** working with Highrise is to how to be
+product back to life. I've worked remotely my entire time. The
+**biggest lesson I learned** working with Highrise is to how to be
 **resourceful**.
 
-In my time here, I've . . .
+In my time at Highrise, I
 
 -   Answered between 75-100 customer support requests per day.
 -   Wrote and built a [new help
