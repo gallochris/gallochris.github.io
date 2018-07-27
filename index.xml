@@ -10,8 +10,8 @@
 	<atom:link href="https://hotdogsandeggs.com/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>R Basics</title>
+  </channel>
+</rss>itle>R Basics</title>
       <link>https://hotdogsandeggs.com/learn/r/basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -106,8 +106,8 @@ And dim(my_vector) results in 4 5</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hotdogsandeggs.com/resume/</guid>
-      <description>It&amp;rsquo;s my job to make customers feel important. Three principles that help me do that:
- Listen to what people do, and not just what they say. Ask questions because the best answer is often a question. Suggest workarounds. We&amp;rsquo;re all better when we&amp;rsquo;re resourceful.  EXPERIENCE Highrise: highrisehq.com Head of customer support since September 30, 2014. Part of the small seven-person team tasked with bringing the 37Signals product back to life.</description>
+      <description>HOW MY BOSS DESCRIBES ME  I hired Chris because he was already doing support for me at Draft for free and I hadn’t even asked him to :) He’s incredibly ambitious and helpful in every aspect of your business, way beyond typical support. He’ll run your business if you want him to. I promise you, customers will write in to you about how much they love Chris.
+Nathan Kontny, former CEO of Highrise</description>
     </item>
     
     <item>
