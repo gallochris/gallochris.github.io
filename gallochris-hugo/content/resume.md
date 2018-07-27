@@ -13,25 +13,6 @@ HOW MY BOSS DESCRIBES ME
 
 > [Nathan Kontny, former CEO of Highrise](https://medium.com/@natekontny/moving-on-from-highrise-94fb26df67e7) 
 
-HOW I DESCRIBE ME
-----------
-
-* * * * *
-
-I've run customer operations for software products from my home in Charlotte, North Carolina for five plus years. My skills include email/phone support, quality assurance, documentation development, product management, and general communication. 
-
-My approach to customer operations is to keep product development, sales, and support all in sync because customers deserve an experience that leaves them feeling important. 
-
-Three principles that help me do that:
-
-1.  [Listen to what people
-    do](http://blog.hotdogsandeggs.com/listen-to-what-people-do/), and
-    not just what they say.
-2.  Ask questions because the [best answer is often a
-    question](http://supportops.co/dont-be-a-robot-create-conversations/).
-3.  Suggest [workarounds](http://blog.hotdogsandeggs.com/workarounds/).
-    We're all better when we're resourceful.
-
 * * * * *
 
 EXPERIENCE
