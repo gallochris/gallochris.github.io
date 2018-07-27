@@ -10,8 +10,8 @@
 	<atom:link href="https://hotdogsandeggs.com/index.xml" rel="self" type="application/rss+xml" />
     
     
-  </channel>
-</rss>itle>R Basics</title>
+    <item>
+      <title>R Basics</title>
       <link>https://hotdogsandeggs.com/learn/r/basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
