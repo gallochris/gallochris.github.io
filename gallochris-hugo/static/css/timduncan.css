@@ -1,10 +1,10 @@
 body { 
-  font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
   padding: 1em;
   margin: 0 auto;
-  max-width: 45em;
+  max-width: 50em;
   color: #14191d; 
   background-color: rgb(235, 239, 243);
 }
@@ -40,7 +40,7 @@ footer {
    }
 
 .date { 
-  color: #acacac;
+  color: #14191d; 
  }
 
 .bmo { 
