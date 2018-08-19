@@ -31,11 +31,11 @@ a {
 
 .please { 
  text-align: center;
- font-size: 12px;
+ font-size: 14px;
  }
 
 footer { 
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
    }
 
@@ -81,5 +81,20 @@ blockquote {
  }
 
 
+ @media screen and (max-width: 650px) {
+  .please { 
+ font-size: 12px;
+ }
+
+ footer { 
+ font-size: 12px;
+  }
+
+  code { 
+    font-size: 12px;
+    white-space: pre-wrap;
+   }
+
+}
 
 
