@@ -3,31 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hotdogsandeggs.com/learn/r/basics/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hotdogsandeggs.com/learn/r/workspaces-files/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hotdogsandeggs.com/learn/r/sequences-of-numbers/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hotdogsandeggs.com/learn/r/vectors/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hotdogsandeggs.com/learn/r/missing-values/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hotdogsandeggs.com/learn/r/subsetting-vectors/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hotdogsandeggs.com/learn/r/matrices-data-frames/</loc>
+    <loc>https://hotdogsandeggs.com/learn/01/</loc>
   </url>
   
   <url>

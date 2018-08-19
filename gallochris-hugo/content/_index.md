@@ -28,7 +28,7 @@ When I couldn't find old UNC basketball box scores, I built [dadgumboxscores.com
 
 Out of frustration to learn advanced college basketball statistics, I put together documentation, [cbbstatshelp.com](https://cbbstatshelp.com/), to make it easier for others. 
 
-I randomly share what I learn on [my blog](https://blog.hotdogsandeggs.com) and [other places](https://m.signalvnoise.com/why-you-should-care-less-7ee81c20240a) on the web.
+I share [what I learn here](/learn/). You can find my writing on [my blog](https://blog.hotdogsandeggs.com) and [other places](https://m.signalvnoise.com/why-you-should-care-less-7ee81c20240a) on the web.
 
 Every so often, I transcribe interesting interviews and talks. It's a bit weird. I call it [What They Said](https://people.hotdogsandeggs.com/). One of my favorites is this transcription of [Manoj Bhargava’s](https://people.hotdogsandeggs.com/manoj-bhargava/) talk.
 
