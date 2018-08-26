@@ -1,10 +1,35 @@
+/* Header */ 
+
+.hotdog-nav {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 14px;
+    text-transform: lowercase;
+}
+
+.hotdog-nav-list {
+    list-style: none;
+}
+
+.hotdog-nav-item {
+margin-bottom: .1rem;
+}
+
+.hotdog-nav-link {
+cursor: pointer;
+    padding: .3rem 0 .2rem;
+  }
+
+/* end header*/ 
+
 body { 
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.7;
   padding: 1em;
   margin: 0 auto;
-  max-width: 50em;
+  max-width: 600px;
   color: #14191d; 
   background-color: rgb(235, 239, 243);
 }
