@@ -22,7 +22,7 @@ EXPERIENCE
 
 Head of customer operations since April 2018. Employee number five of a team that helps people manage business expenses. We're aiming to be an expense management platform for small and large businesses. 
 
-My responsibilites include 
+My responsibilites include: 
 
 -   Managing all email and phone support for customers
 -   Developing the product's first iteration of documentation
@@ -41,7 +41,7 @@ product back to life. I've worked remotely my entire time. The
 **biggest lesson I learned** working with Highrise is to how to be
 **resourceful**.
 
-In my time at Highrise, I
+In my time at Highrise, I . . .
 
 -   Answered between 75-100 customer support requests per day.
 -   Wrote and built a [new help
