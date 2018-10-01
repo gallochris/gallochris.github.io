@@ -22,7 +22,7 @@ EXPERIENCE
 
 Head of customer operations since April 2018. Employee number five of a team that helps people manage business expenses. We're aiming to be an expense management platform for small and large businesses. 
 
-My responsibilites include: 
+My responsibilities include: 
 
 -   Managing all email and phone support for customers
 -   Developing the product's first iteration of documentation
