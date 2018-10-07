@@ -5,7 +5,7 @@ title: Chris Gallo | Home
 # Hi, I'm Chris.
 
 And this is [hot dogs and eggs](/manifesto). It's my little piece of the
-world wide web. A place for me to stay curious.
+world wide web. It's a place for me to stay curious.
 
 **How do I stay curious?**
 
@@ -25,5 +25,6 @@ I'm interested in *how* sports work, so I combine that interest with trying to m
 
 - [dadgumboxscores.com](http://dadgumboxscores.com/) - every Carolina box score since '03-04
 - [cbbstatshelp.com](https://cbbstatshelp.com/) - documentation to explain advanced basketball statistics 
+
 
 * * * 
