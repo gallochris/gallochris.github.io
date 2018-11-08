@@ -214,7 +214,7 @@ c) ask <em>why</em> you are experiencing those feelings</p>
 
 <p><strong>Get better at thing things you care about most.</strong></p>
 
-<p><img src="https://cdn-images-1.medium.com/max/800/1*NF-bHNbmPpftufiU8sCERQ.jpeg" alt="mindset" /></p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*NF-bHNbmPpftufiU8sCERQ.jpeg" width="550"></p>
 
 <p>Second part of the book is all about how the world is tied to this standardization mindset.</p>
 
@@ -252,21 +252,22 @@ c) ask <em>why</em> you are experiencing those feelings</p>
 
 <p>R code for the scatterplot:</p>
 
-<pre><code>trip.data &lt;- read.csv(file=&quot;trip.csv&quot;)
+<pre style="white-space: pre-wrap;">
+trip.data <- read.csv(file="trip.csv")
 View(trip.data)
 
 ggplot(data=trip.data, aes(x=PP, y=PA, label=Team)) +
   geom_point() +
   geom_label_repel(aes(label = Team),
                    fontface = 'bold',
-    			    box.padding = unit(0.50, &quot;lines&quot;)
-  		) +
-	labs(x=&quot;3PT Percentage (%)&quot;, y=&quot;Percentage of shots from 3PT land (%)&quot;,
-       title=&quot;Carolina Opponents: 3PT Attempt Rate Compared to 3PT Percentage Since Start of '17-18 Season&quot;,
-       subtitle=&quot;Up &amp; to the right means a high percentage of shots were from 3PT land and a high percentage went in, up &amp; to the left means high 3PT attempt rate and low 3PT percentage.&quot;,
-       caption=&quot;Brought to you by the letter dadgumboxscores.com&quot;) + 
+                    box.padding = unit(0.50, "lines")
+        ) +
+    labs(x="3PT Percentage (%)", y="Percentage of shots from 3PT land (%)",
+       title="Carolina Opponents: 3PT Attempt Rate Compared to 3PT Percentage Since Start of '17-18 Season",
+       subtitle="Up & to the right means a high percentage of shots were from 3PT land and a high percentage went in, up & to the left means high 3PT attempt rate and low 3PT percentage.",
+       caption="Brought to you by the letter dadgumboxscores.com") + 
    theme_ipsum()
-</code></pre>
+</pre>
 
 
 
