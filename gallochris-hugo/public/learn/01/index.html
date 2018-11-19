@@ -65,7 +65,7 @@
 <li>Circle of Competence - know what you don&rsquo;t know, understand there is <em>chauffeur knowledge</em></li>
 <li>Be objective and selective</li>
 <li>Invert, and invert again. Do the opposite. Contrarian.<br /></li>
-<li>People are trying to be smar. All I am trying to do is not to be idiotic, but it’s harder than most people think.</li>
+<li>People are trying to be smart. All I am trying to do is not to be idiotic, but it’s harder than most people think.</li>
 <li>Being a fanatic can help you persevere through a business, but it can also blind you to bad decisions.</li>
 </ul>
 
@@ -109,32 +109,33 @@
 <li><a href="https://thepracticalr.wordpress.com/2016/11/11/make-a-bar-plot-with-ggplot/">Practical R blog post</a> helped me make a graph in R for my article</li>
 </ul>
 
-<pre><code># make some data
-season &lt;-rep(c(&quot;2004&quot;, &quot;2005&quot;, &quot;2006&quot;, &quot;2007&quot;, &quot;2008&quot;, &quot;2009&quot;, 
-               &quot;2010&quot;, &quot;2011&quot;, &quot;2012&quot;, &quot;2013&quot;, &quot;2014&quot;, &quot;2015&quot;, &quot;2016&quot;, &quot;2017&quot;, &quot;2018&quot;), 2)
-min &lt;-c(4.3, 15.3, 45.3, 48.1, 2.5, 16.9, 29.2, 32.3, 18.9, 27.5, 22.2, 22.5, 3.8, 14.7, 20.4)
-start &lt;-c(0.7, 0.5, 48.4, 55.8, 0.0, 2.1, 10.3, 30.3, 2.6, 21.7, 19.4, 20.0, 0.0, 0.0, 9.2)
-values &lt;-c(min, start)
-type &lt;-c(rep(&quot;min&quot;, 15), rep(&quot;start&quot;, 15))
-mydata &lt;-data.frame(season, values)
+<pre style="white-space: pre-wrap;">
+# make some data
+season <-rep(c("2004", "2005", "2006", "2007", "2008", "2009", 
+               "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018"), 2)
+min <-c(4.3, 15.3, 45.3, 48.1, 2.5, 16.9, 29.2, 32.3, 18.9, 27.5, 22.2, 22.5, 3.8, 14.7, 20.4)
+start <-c(0.7, 0.5, 48.4, 55.8, 0.0, 2.1, 10.3, 30.3, 2.6, 21.7, 19.4, 20.0, 0.0, 0.0, 9.2)
+values <-c(min, start)
+type <-c(rep("min", 15), rep("start", 15))
+mydata <-data.frame(season, values)
 
 library(ggplot2)
 library(hrbrthemes)
 
-p &lt;-ggplot(mydata, aes(season, values))
+p <-ggplot(mydata, aes(season, values))
 p +geom_bar()
 
-ggplot(mydata, aes(x=season,y = values)) +geom_bar(stat = &quot;identity&quot;)
+ggplot(mydata, aes(x=season,y = values)) +geom_bar(stat = "identity")
 
-p + geom_bar(stat = &quot;identity&quot;, aes(fill = type)) +
-  labs(x=&quot;Season&quot;, y=&quot;Percentage&quot;,
-       title=&quot;Freshman Class Minutes Played &amp; Games Started&quot;,
-       subtitle=&quot;Percentage of possible minutes played and games started since '03-04&quot;,
-       caption=&quot;Brought to you by dadgumboxscores.com&quot;)  +
+p + geom_bar(stat = "identity", aes(fill = type)) +
+  labs(x="Season", y="Percentage",
+       title="Freshman Class Minutes Played & Games Started",
+       subtitle="Percentage of possible minutes played and games started since '03-04",
+       caption="Brought to you by dadgumboxscores.com")  +
   theme(plot.title = element_text(hjust = 0.5)) + 
-  scale_fill_manual(&quot;Legend&quot;, values = c(&quot;min&quot; = &quot;#7BAFD4&quot;, &quot;start&quot; = &quot;#13294B&quot;)) + 
+  scale_fill_manual("Legend", values = c("min" = "#7BAFD4", "start" = "#13294B")) + 
   theme_ipsum()
-</code></pre>
+</pre>
 
 <ul>
 <li>Want to learn more about animating graphs, spatial graphs, etc.</li>
@@ -145,7 +146,7 @@ p + geom_bar(stat = &quot;identity&quot;, aes(fill = type)) +
 <h2 id="takeaways">Takeaways</h2>
 
 <ul>
-<li>Learning new things takes time. Only bad things happened really fast.</li>
+<li>Learning new things takes time. Only bad things happen really fast.</li>
 <li>Take a breath. Breathe. Take another breath.</li>
 <li>Try new things and share them. It&rsquo;ll make you better. Create stuff.</li>
 <li>Keep learning, keep learning.</li>
@@ -160,7 +161,7 @@ p + geom_bar(stat = &quot;identity&quot;, aes(fill = type)) +
 			</div>
 	</main>
 	<footer class="footer" role="contentinfo">
-		<spa> Last updated Nov 8, 2018</span>
+		<spa> Last updated Nov 19, 2018</span>
 		<br>
 		<span>&copy; 2014 - 2018</span>
 	</footer>

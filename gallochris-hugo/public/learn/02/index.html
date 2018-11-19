@@ -61,7 +61,7 @@
 
 <p>Here&rsquo;s a summary of the 4 rules in my own words:</p>
 
-<p><strong>Rule 1:</strong> be consistent, one is better than zero. Do at least something that can help you toward your goal or dream each day. Want to lose wait? Exercise. You don&rsquo;t have to run a marathon. Do a pushup. Take a walk.</p>
+<p><strong>Rule 1:</strong> be consistent, one is better than zero. Do at least something that can help you toward your goal or dream each day. Want to lose weight? Exercise. You don&rsquo;t have to run a marathon. Do a pushup. Take a walk.</p>
 
 <p>Want to learn to program? Write a line of code. Build a silly website.</p>
 
@@ -148,26 +148,27 @@
 <li>Made a <a href="https://twitter.com/dadgumboxscores">graph with a vertical line</a></li>
 </ul>
 
-<pre><code>library(ggplot2)
+<pre style="white-space: pre-wrap;">
+library(ggplot2)
 library(hrbrthemes)
 
-ow.data &lt;- read.csv(file=&quot;try.csv&quot;)
+ow.data <- read.csv(file="try.csv")
 View(ow.data)
 
 ggplot(try.data, aes(x = game, y= Three, colour = variable)) + 
-  geom_line(aes(y = pct, colour = &quot;pct&quot;), size=1.5) +
-  geom_line(aes(y = att, colour = &quot;att&quot;), linetype=&quot;dotted&quot;, size=1.5) +
-  labs(x=&quot;Game Number&quot;, y=&quot;3PT Pct and Attempt Rate&quot;,  
-	title=&quot;3PT Percentage and Attempt Rate by Carolina Opponents&quot;, 
-	subtitle=&quot;Percentage of 3PT shots made and attempted by 2017-18 opponents game-by-game&quot;,
-       caption=&quot;Brought to you by dadgumboxscores.com&quot;)  +
-	scale_x_continuous(name=&quot;Game.Number&quot;, breaks=c(1:37), labels=c(1:37),limits=c(1,37)) +
-	scale_colour_manual(&quot;&quot;, 
-                      breaks = c(&quot;pct&quot;, &quot;att&quot;),
-                      values = c(&quot;pct&quot;=&quot;#66CC99&quot;, &quot;att&quot;=&quot;#CC6666&quot;)) +
-       geom_vline(xintercept=c(23,24), linetype=&quot;dashed&quot;) + 
-	theme_ipsum(grid=&quot;XY&quot;) 
-</code></pre>
+  geom_line(aes(y = pct, colour = "pct"), size=1.5) +
+  geom_line(aes(y = att, colour = "att"), linetype="dotted", size=1.5) +
+  labs(x="Game Number", y="3PT Pct and Attempt Rate",  
+    title="3PT Percentage and Attempt Rate by Carolina Opponents", 
+    subtitle="Percentage of 3PT shots made and attempted by 2017-18 opponents game-by-game",
+       caption="Brought to you by dadgumboxscores.com")  +
+    scale_x_continuous(name="Game.Number", breaks=c(1:37), labels=c(1:37),limits=c(1,37)) +
+    scale_colour_manual("", 
+                      breaks = c("pct", "att"),
+                      values = c("pct"="#66CC99", "att"="#CC6666")) +
+       geom_vline(xintercept=c(23,24), linetype="dashed") + 
+    theme_ipsum(grid="XY") 
+</pre>
 
 <ul>
 <li>Need to keep going, try the sports course and make more graphs</li>
@@ -190,7 +191,7 @@ ggplot(try.data, aes(x = game, y= Three, colour = variable)) +
 			</div>
 	</main>
 	<footer class="footer" role="contentinfo">
-		<spa> Last updated Nov 8, 2018</span>
+		<spa> Last updated Nov 19, 2018</span>
 		<br>
 		<span>&copy; 2014 - 2018</span>
 	</footer>
