@@ -17,7 +17,7 @@ world wide web. It's a place for me to stay curious.
 
 I run customer operations for software products from my home in Charlotte, North Carolina. My skills include email/phone support, quality assurance, documentation development, product management, and general communication. 
 
-Today, I work at [{{< zipline "Zipline" >}}](https://www.retailzipline.com/), where we make it easier for retailers to communicate with each other. 
+Today, I work with [{{< zipline "Zipline," >}}](https://www.retailzipline.com/) where we make it easier for retailers to communicate with each other. 
 
 **What else?**
 
