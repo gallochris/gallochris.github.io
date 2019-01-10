@@ -20,7 +20,7 @@ a kid. I kept saying it all day. Hot dogs and eggs. It made me smile :)
 I bought the domain name and laughed. But it stuck. It's goofy and
 different, just like me. A curious combination, hot dogs and eggs.
 
-The name has come to mean much more to me. It's part of my philosophy. And it represents yellow what I believe.
+The name has come to mean much more to me. It's part of my philosophy. And it represents {{< yellow "what I believe."  >}}
 
 * * * * 
 
@@ -28,13 +28,13 @@ The best answer is a **question**.
 
 Listen to what people **do**, not just what they **say**.
 
-*Less* is more.
+**Less** is more.
 
-*Small* beats big.
+**Simple** doesn't mean *easy*.
 
 If it's not **useful or entertaining**, it's useless.
 
-Do the right thing even when **no one** is watching.
+Do the right thing **even** when *no one* is watching.
 
 * * * * 
 
