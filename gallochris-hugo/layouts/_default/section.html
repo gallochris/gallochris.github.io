@@ -2,12 +2,15 @@
 
 
 	<main>
-	<div class="please">
-		{{ .Content }}
-		</div>
-		{{ $paginator := .Paginate (where .Site.Pages "Type" "learn") }}
-		{{ range $paginator.Pages }}
+	<span class="please">
+		<h1>What I'm Learning Lately</h1>
+		<p>A place for me to publish what I'm learning because it keeps me curious.</p>
+		<hr>
+	</span>
+		{{ range (where .Site.Pages "Type" "learn") }}
+		{{ range .Pages }}
 		{{ partial "summary.html" . }}
+		{{ end }}
 		{{ end }}
 
 	</main>

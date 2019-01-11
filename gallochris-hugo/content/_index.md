@@ -1,5 +1,6 @@
 ---
 title: Chris Gallo | Home
+layout: index
 ---
 
 # Hi, I'm Chris.
