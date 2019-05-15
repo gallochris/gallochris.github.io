@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Subsetting Vectors</title>
+	<meta name="description" content="This is the website of Chris Gallo. It&#39;s a place for him to stay curious.">
+	<meta name="author" content="Chris Gallo">
+	
+	<link rel="stylesheet" href="https://hotdogsandeggs.com/css/timduncan.css">
+    
+    
+     <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-52956118-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+    
+    <link rel="icon" type="image/x-icon" href="https://hotdogsandeggs.com/images/favicon.ico">
+    
+    <meta content="L-ZoUji3D4K6CNyxdq-cLivhr8XI0ybkaBQb6lV3LG0" name="google-site-verification">
+
+    <meta name="google-site-verification" content="n-mul2Oky0NnGKK9E6OWAOfm76i008AWrhJzyzDxFq0" />
+	
+	<meta name="generator" content="Hugo 0.40.1" />
+</head>
+<body>
+
+
+<div class="please">
+  <header>
+  <span>You’re reading <a href="https://hotdogsandeggs.com" >Chris Gallo's</a> notes on learning R, view a list of <a href ="https://hotdogsandeggs.com/learn" >all notes here</a>.</span>
+    </div>
+  </header>
+	<main>
+			<div>
+				
+
+<h1 id="subsetting-vectors">Subsetting Vectors</h1>
+
+<p>This section of <a href="http://swirlstats.com/students.html" >swirl</a> introduces how to extract elements from a vector based on certain conditions.</p>
+
+<p>You may not need a full set of data or the full vector. Maybe you only want the first 10 elements, or maybe only elements that aren&rsquo;t NA, or maybe only ones that correspond to a specific variable.</p>
+
+<h2 id="how-to-select-a-subset">How to Select a Subset</h2>
+
+<p>Use an <strong>index vector</strong> in square brackets immediately following the name of the vector.</p>
+
+<p>For example, <code>x[1:10]</code> shows the first 10 elements of x.</p>
+
+<p><strong>4 types of index vectors</strong></p>
+
+<ol>
+<li><p>logical vectors</p></li>
+
+<li><p>vectors of positive integers</p></li>
+
+<li><p>vectors of negative integers</p></li>
+
+<li><p>vectors of character strings</p></li>
+</ol>
+
+<h2 id="logical-vectors">Logical Vectors</h2>
+
+<p>Common example is to retrieve all elements of a vector that are <strong>not</strong> NA or no missing values.</p>
+
+<p>This function <code>x[is.na(x)]</code> results in all TRUEs or all the NAs in the vector x.</p>
+
+<p>How do you create a vector of all the non-NAs or FALSEs?</p>
+
+<p><code>y &lt;- x[!is.na(x)]</code> results in all the non-NAs, so 0 missing values.</p>
+
+<h2 id="vectors-of-positive-integers">Vectors of Positive Integers</h2>
+
+<p>Use the expression <code>&gt; 0</code> to find all the positive integers in a vector.</p>
+
+<p>For example, <code>y[y &gt; 0]</code> results in all the positive integers of y or all the positive elements of our original vector x.</p>
+
+<p><strong>Important</strong>: You can&rsquo;t start with <code>x[x &gt; 0]</code> because NA &gt; 0 results in NA. Remember, NA is <strong>not a value</strong>, it&rsquo;s a placeholder. Need to remove the NA&rsquo;s first.</p>
+
+<p><strong>Shortcut</strong> is using logical expressions <code>x[!is.na(x) &amp; x &gt; 0]</code> resulting in only values of x that are both non-missing <em>and</em> greater than zero.</p>
+
+<h3 id="important-things-to-remember">Important Things to Remember</h3>
+
+<p>R uses <strong>one-based indexing</strong> meaning the first element of a vector is considered element 1. Not zero-based indexing like many other programming languages.</p>
+
+<p>For example, <code>x[c(3, 5, 7)]</code> subsets the 3rd, 5th, and 7th elements of x.</p>
+
+<p>Remember to stick to the length of your index. If x only has 40 elements, you can&rsquo;t subset <code>x[0]</code> or <code>x[90]</code>. The result is not useful.</p>
+
+<h2 id="vectors-of-negative-integers">Vectors of Negative Integers</h2>
+
+<p>Comes in handy when you want all elements of x <strong>except the 2nd and 10th</strong> elements.</p>
+
+<p>For example <code>x[c(-2, -10)]</code> returns all elements <strong>except</strong> for the 2nd and 10 elements.</p>
+
+<p><strong>Use the shorthand</strong> <code>x[-c(2, 10)]</code> to return the same result (only type - once, not twice).</p>
+
+<h2 id="vectors-of-character-strings">Vectors of Character Strings</h2>
+
+<p>These vectors include <strong>named elements</strong>.</p>
+
+<p>For example, <code>vect &lt;- c(abc = 10, def = NA, ghi = 5)</code> results in &hellip;</p>
+
+<p><code>abc  def   ghi</code>
+ <code>10    NA   5</code></p>
+
+<p>The <code>names()</code> function returns the names of the vector, i.e. <code>names(vect)</code> returns <code>&quot;abc&quot; &quot;def&quot; &quot;ghi&quot;</code>.</p>
+
+<p>OR assign the names to an unnamed vector after, for example &hellip;</p>
+
+<p><code>vect2 &lt;- c(10, NA, 5)</code> and <code>names(vect2) &lt;- c(&quot;abc&quot;, &quot;def&quot;, &quot;ghi&quot;)</code></p>
+
+<p>And you can check if these vectors are identical using the <code>identical()</code> function.</p>
+
+<p><code>identical(vect, vect2)</code> results in <code>TRUE</code></p>
+
+<p>Use <code>vect[&quot;def&quot;]</code> to subset the second element of the vector, results in <code>NA</code>.</p>
+
+
+<hr>
+<div class="please">See all <a href="https://hotdogsandeggs.com/learn/">notes</a></div>
+<div class="post_navigation">
+
+  <a href="https://hotdogsandeggs.com/learn/r/missing-values/" class="post_navigation left">Missing Values</a>
+
+ 
+
+  <a href="https://hotdogsandeggs.com/learn/r/matrices-data-frames/" class="post_navigation right">Matrices and Data Frames</a>
+
+</div>
+
+			</div>
+	</main>
+	<footer class="footer" role="contentinfo">
+		<span class="date"> Last updated Aug 1, 2018</span>
+		<br>
+		<span>&copy; 2014 - 2018</span>
+	</footer>
+</body>
+</html>

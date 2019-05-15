@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Missing Values</title>
+	<meta name="description" content="This is the website of Chris Gallo. It&#39;s a place for him to stay curious.">
+	<meta name="author" content="Chris Gallo">
+	
+	<link rel="stylesheet" href="https://hotdogsandeggs.com/css/timduncan.css">
+    
+    
+     <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-52956118-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+    
+    <link rel="icon" type="image/x-icon" href="https://hotdogsandeggs.com/images/favicon.ico">
+    
+    <meta content="L-ZoUji3D4K6CNyxdq-cLivhr8XI0ybkaBQb6lV3LG0" name="google-site-verification">
+
+    <meta name="google-site-verification" content="n-mul2Oky0NnGKK9E6OWAOfm76i008AWrhJzyzDxFq0" />
+	
+	<meta name="generator" content="Hugo 0.40.1" />
+</head>
+<body>
+
+
+<div class="please">
+  <header>
+  <span>You’re reading <a href="https://hotdogsandeggs.com" >Chris Gallo's</a> notes on learning R, view a list of <a href ="https://hotdogsandeggs.com/learn" >all notes here</a>.</span>
+    </div>
+  </header>
+	<main>
+			<div>
+				
+
+<h1 id="missing-values">Missing Values</h1>
+
+<p>Section 5 of <a href="http://swirlstats.com/students.html" >swirl</a> covers missing values. Important because there might be an underlying cause or pattern for <em>why</em> the values are missing.</p>
+
+<p>2 types:</p>
+
+<ol>
+<li><p><code>NA</code> represents any value that is missing or not available.</p></li>
+
+<li><p><code>NaN</code> means not a number, <code>0 / 0</code> and <code>Inf - Inf</code> both result in <code>NaN</code></p></li>
+</ol>
+
+<p>Let&rsquo;s focus on NA for this section.</p>
+
+<h2 id="examples">Examples</h2>
+
+<p><code>x &lt;- c(4, NA, 5, NA)</code> and <code>x * 3</code> results in <code>12, NA, 15, NA</code></p>
+
+<p>These next couple examples are verbatim for swirl.</p>
+
+<p>First, <code>y &lt;- rnorm(1000)</code> creates a vector containing 1000 draws from a standard normal distribution.</p>
+
+<p>Next, <code>z &lt;- rep(NA, 1000)</code> creates a vector containing 1000 NAs.</p>
+
+<p>And finally, <code>my_data &lt;- sample(c(y, z), 100)</code> selects 100 elements at random for these 2000 values (combined y and z). It&rsquo;s random, so you don&rsquo;t know how many NA&rsquo;s will be created or what positions they&rsquo;ll occupy.</p>
+
+<p>Use the <code>is.na()</code> function tells you whether each element of a vector is NA.</p>
+
+<p>For example, <code>my_na &lt;- is.na(my_data)</code> and print <code>my_na</code> results in a series of TRUE and FALSE values.</p>
+
+<p>TRUE means a corresponding value is NA. FALSE means it&rsquo;s a random draw of standard deviation or not a NA.</p>
+
+<p><strong>Important</strong>: NA isn&rsquo;t a value. It&rsquo;s a placeholder. Be cautious when using logical expressions with NA&rsquo;s because one NA renders an expression incomplete.</p>
+
+<p>This means <code>my_data == NA</code> doesn&rsquo;t result in the same as <code>is.na()</code>. It would simply print a bunch of NA&rsquo;s because it&rsquo;s not a value.</p>
+
+<h2 id="find-total-amount-of-na-s">Find Total Amount of NA&rsquo;s</h2>
+
+<p>In R, TRUE has the value of 1 and FALSE has the value of 0.</p>
+
+<p>If you take the <code>sum()</code> of TRUEs and FALSEs, you get total number of TRUEs.</p>
+
+<p>For example, if <code>sum(my_na)</code> results in <code>54</code> it means you have 54 total NA&rsquo;s.</p>
+
+
+<hr>
+<div class="please">See all <a href="https://hotdogsandeggs.com/learn/">notes</a></div>
+<div class="post_navigation">
+
+  <a href="https://hotdogsandeggs.com/learn/r/vectors/" class="post_navigation left">Types of Vectors</a>
+
+ 
+
+  <a href="https://hotdogsandeggs.com/learn/r/subsetting-vectors/" class="post_navigation right">Subsetting Vectors</a>
+
+</div>
+
+			</div>
+	</main>
+	<footer class="footer" role="contentinfo">
+		<span class="date"> Last updated Aug 1, 2018</span>
+		<br>
+		<span>&copy; 2014 - 2018</span>
+	</footer>
+</body>
+</html>
