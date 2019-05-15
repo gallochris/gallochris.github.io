@@ -18,15 +18,30 @@ HOW MY BOSS DESCRIBES ME
 EXPERIENCE
 ----------
 
-### Emburse: [emburse.com](https://www.emburse.com/)
+### Zipline: [retailzipline.com](https://www.retailzipline.com/)
 
-Head of customer operations since April 2018. Employee number five of a team that helps people manage business expenses. We're aiming to be an expense management platform for small and large businesses. 
+Customer Operations & Success Manager since January 2019. Our team makes it easier for large retailers to communicate with each other. I work remotely from my home in Charlotte, NC. 
 
 My responsibilities include: 
 
+-   Managing chat and email support for the versions of the product  
+-   Performing technical tasks including Ruby on Rails scripts for data integrity and customer automation
+-   Documenting bugs and performance issues to share with the product team 
+-   Executing customer implementation during trials and pilots 
+-   Analyzing support metrics to determine ways to improve the product
+
+
+* * * * *
+
+
+### Emburse: [emburse.com](https://www.emburse.com/)
+
+Customer operations from April 2018 to January 2019. Employee number five of a team that helps people manage business expenses.
+
+Joined Emburse to help them transition and migrate to a new card processor for all customers. My duties included: 
+
 -   Managing all email and phone support for customers
 -   Developing the product's first iteration of documentation
--   Overseeing a migration to a new card processor for all customers
 -   Updating the marketing site via copy edit and pull requests 
 -   Doing quality assurance to make sure the product performs properly
 
@@ -113,10 +128,6 @@ on the web on my own. Here are a few static sites I've put together.
     men's basketball box score since 2003-2004.
 -   [dalecarnegieismyhomeboy.com](https://hotdogsandeggs.com/dale/):
     all 30 principles from *How to Win Friends and Influence People*.
--   [people.hotdogsandeggs.com](http://people.hotdogsandeggs.com/):
-    transcribed advice from interesting interviews and talks.
--   [blog.hotdogsandeggs.com](http://blog.hotdogsandeggs.com/): writing
-    about what I learn and sharing it with others.
 
 If you want to get in touch, please [email me
 here](mailto:christopher.joseph.gallo@gmail.com).

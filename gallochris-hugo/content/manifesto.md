@@ -34,7 +34,5 @@ Listen to what people **do**, not just what they **say**.
 
 If it's not **useful or entertaining**, it's useless.
 
-Do the right thing **even** when *no one* is watching.
-
 * * * * 
 

@@ -10,17 +10,16 @@ world wide web. It's a place for me to stay curious.
 
 **How do I stay curious?**
 
-- writing to think on [my blog](https://blog.hotdogsandeggs.com)
-- sharing what I [learn](/learn/)
-- transcribing interesting interviews or talks of [what they said](https://people.hotdogsandeggs.com/)
+- writing to think ➡️ [blog](https://blog.hotdogsandeggs.com)
+- reading to understand ➡️ [books](https://books.hotdogsandeggs.com)
 
 **What do I do?**
 
-I run customer operations for software products from my home in Charlotte, North Carolina. My skills include email/phone support, quality assurance, documentation development, product management, and general communication. 
+I run customer operations for software products from my home in Charlotte, North Carolina. My skills include email/phone support, quality assurance, documentation development, technical tasks, and general communication. 
 
-Today, I work with [{{< zipline "Zipline," >}}](https://www.retailzipline.com/) where we make it easier for retailers to communicate with each other. 
+Today, I work with [{{< zipline "Zipline." >}}](https://www.retailzipline.com/) Our team makes it easier for retailers to communicate with each other. 
 
-**What else?**
+**What am I interested in now?**
 
 I'm interested in *how* sports work, so I combine that interest with trying to make Internet things with computers and build my own static websites or tools. 
 

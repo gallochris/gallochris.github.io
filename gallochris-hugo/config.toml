@@ -2,11 +2,6 @@ baseURL = "https://hotdogsandeggs.com/"
 languageCode = "en-us"
 title = "Chris Gallo | Home"
 
-[taxonomies]
-  tag = ""
-  group = ""
-  category = ""
-
 [params]
     author = "Chris Gallo"
     description = "This is the website of Chris Gallo. It's a place for him to stay curious."	

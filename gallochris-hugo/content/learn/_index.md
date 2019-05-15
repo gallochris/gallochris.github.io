@@ -1,6 +1,5 @@
 --- 
 title: "Chris Gallo | Learn" 
-type: learn
 ---
 
 What I'm Learning Lately
