@@ -15,16 +15,10 @@ world wide web. It's a place for me to stay curious.
 
 **What do I do?**
 
-I run customer operations for software products from my home in Charlotte, North Carolina. My skills include email/phone support, quality assurance, documentation development, technical tasks, and general communication. 
+I run customer operations for software products from my home in Charlotte, North Carolina. My skills include email support, quality assurance, documentation, and technical tasks (💎 ruby + 📉 R). 
 
 Today, I work with [{{< zipline "Zipline." >}}](https://www.retailzipline.com/) Our team makes it easier for retailers to communicate with each other. 
 
 If you want to learn more about my background in customer support, Rob Williams was kind enough to have me on his Freelance podcast. [Listen to it here](https://twitter.com/YoFolyo/status/1196127933384908800?s=20). 
-
-**What am I interested in now?**
-
-I'm interested in *how* sports work, so I combine that interest with trying to make Internet things with computers and build my own static websites or tools. 
-
-My current pet project is [dadgumboxscores.com](http://dadgumboxscores.com/). It's a collection of data using every Carolina box score since '03-04. I built a Shiny app with R that can be found at [app.dadgumboxscores.com](https://app.dadgumboxscores.com/). And I also share charts/video [@dadgumboxscores](https://twitter.com/dadgumboxscores). 
 
 * * * 

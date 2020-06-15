@@ -28,7 +28,7 @@
 
     <meta name="google-site-verification" content="n-mul2Oky0NnGKK9E6OWAOfm76i008AWrhJzyzDxFq0" />
 	
-	<meta name="generator" content="Hugo 0.55.5" />
+	<meta name="generator" content="Hugo 0.64.1" />
 </head>
 
 <div class="topper">You’re visiting Hot dogs and eggs, the online home of <a href="https://hotdogsandeggs.com" >Chris Gallo</a> since 2014.
@@ -46,30 +46,20 @@
 
 			<div>
 	
-				
-
-<h1 id="01-fast-and-curious">01: Fast and Curious</h1>
-
+				<h1 id="01-fast-and-curious">01: Fast and Curious</h1>
 <p>Fast and curious. I thought this would be a fun name for a blog or newsletter for some reason. It&rsquo;s silly.</p>
-
 <p>But also a good a way to try to explain what I&rsquo;m hoping to accomplish with this exercise. The goal is to <em>write down</em> or publish what I&rsquo;ve learned to help me retain it and motivate me to keep learning new things.</p>
-
 <p>It&rsquo;s total stream of consciousness based off what I consumed and created during the past week or so. Here goes nothing.</p>
-
 <h2 id="consuming">Consuming</h2>
-
 <p><em>Charlie Munger <a href="https://www.allencheng.com/poor-charlies-almanack-charlie-munger-book-summary-pdf/">book notes</a></em></p>
-
 <ul>
 <li>Circle of Competence - know what you don&rsquo;t know, understand there is <em>chauffeur knowledge</em></li>
 <li>Be objective and selective</li>
-<li>Invert, and invert again. Do the opposite. Contrarian.<br /></li>
+<li>Invert, and invert again. Do the opposite. Contrarian.</li>
 <li>People are trying to be smart. All I am trying to do is not to be idiotic, but it’s harder than most people think.</li>
 <li>Being a fanatic can help you persevere through a business, but it can also blind you to bad decisions.</li>
 </ul>
-
 <p><em><a href="https://www.youtube.com/user/nprmusic">Tiny Desk: NPR Music</a></em></p>
-
 <ul>
 <li>Why does Tiny Desk work so well? It helps you discover new music.</li>
 <li>These are brilliant, a few I&rsquo;ve watched over and over again</li>
@@ -78,72 +68,35 @@
 <li><a href="https://www.youtube.com/watch?v=zhVgbZdMdb0">Thundercat</a></li>
 <li><a href="https://www.npr.org/2018/08/14/638483063/erykah-badu-tiny-desk-concert">Erykah Badu</a></li>
 </ul>
-
 <p><em>Quote I&rsquo;m thinking about</em></p>
-
 <ul>
 <li>Only bad things happen quickly. All the happiness-producing processes in our lives take time, usually a long time: learning new things, changing old behaviors, building satisfying relationships, raising children. This is why patience and determination are among life’s primary virtues. - Gordon Livington</li>
 </ul>
-
 <p><em>Metaphor that made sense</em></p>
-
 <ul>
 <li>Their team always sort of looks like an unmade bed. - Michael Lombardi describing the Washington Redskins on a podcast.</li>
 </ul>
-
 <h2 id="creating">Creating</h2>
-
 <ul>
 <li>Wrote a <a href="https://blog.hotdogsandeggs.com/circle-of-competence/">blog on the circle of competence</a></li>
 <li>Research on UNC freshmen basketball minutes played and games started</li>
 <li>Wrote an <a href="https://fyi.dadgumboxscores.com/true-or-false-freshman/">article about those findings</a></li>
-<li>Put together <a href="https://fyi.dadgumboxscores.com/update-03/">update</a> about styles and design changes to dadgumboxscores.com<br /></li>
+<li>Put together <a href="https://fyi.dadgumboxscores.com/update-03/">update</a> about styles and design changes to dadgumboxscores.com</li>
 </ul>
-
 <p><em>R Programming Language</em></p>
-
 <ul>
 <li>Signed up for <a href="http://learn.r-journalism.com/">R for Journalism course</a></li>
 <li>Helped some, lots or resources with examples, but get uninterested quickly</li>
 <li><a href="https://thepracticalr.wordpress.com/2016/11/11/make-a-bar-plot-with-ggplot/">Practical R blog post</a> helped me make a graph in R for my article</li>
 </ul>
-
-<pre style="white-space: pre-wrap;">
-# make some data
-season <-rep(c("2004", "2005", "2006", "2007", "2008", "2009", 
-               "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018"), 2)
-min <-c(4.3, 15.3, 45.3, 48.1, 2.5, 16.9, 29.2, 32.3, 18.9, 27.5, 22.2, 22.5, 3.8, 14.7, 20.4)
-start <-c(0.7, 0.5, 48.4, 55.8, 0.0, 2.1, 10.3, 30.3, 2.6, 21.7, 19.4, 20.0, 0.0, 0.0, 9.2)
-values <-c(min, start)
-type <-c(rep("min", 15), rep("start", 15))
-mydata <-data.frame(season, values)
-
-library(ggplot2)
-library(hrbrthemes)
-
-p <-ggplot(mydata, aes(season, values))
-p +geom_bar()
-
-ggplot(mydata, aes(x=season,y = values)) +geom_bar(stat = "identity")
-
-p + geom_bar(stat = "identity", aes(fill = type)) +
-  labs(x="Season", y="Percentage",
-       title="Freshman Class Minutes Played & Games Started",
-       subtitle="Percentage of possible minutes played and games started since '03-04",
-       caption="Brought to you by dadgumboxscores.com")  +
-  theme(plot.title = element_text(hjust = 0.5)) + 
-  scale_fill_manual("Legend", values = c("min" = "#7BAFD4", "start" = "#13294B")) + 
-  theme_ipsum()
-</pre>
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <ul>
 <li>Want to learn more about animating graphs, spatial graphs, etc.</li>
 <li>Try to write more and share graphs - chart of the day?</li>
 <li>Inspiration from <a href="https://twitter.com/thefutebolist/">@thefutebolist</a></li>
 </ul>
-
 <h2 id="takeaways">Takeaways</h2>
-
 <ul>
 <li>Learning new things takes time. Only bad things happen really fast.</li>
 <li>Take a breath. Breathe. Take another breath.</li>
@@ -160,9 +113,9 @@ p + geom_bar(stat = "identity", aes(fill = type)) +
 			</div>
 	</main>
 	<footer class="footer" role="contentinfo">
-		<spa> Last updated Nov 19, 2019</span>
+		<spa> Last updated Jun 15, 2020</span>
 		<br>
-		<span>&copy; 2014 - 2019</span>
+		<span>&copy; 2014 - 2020</span>
 	</footer>
 </body>
 </html>
