@@ -12,10 +12,11 @@ world wide web. It's a place for me to stay curious.
 
 - writing to think ➡️ [blog](https://blog.hotdogsandeggs.com)
 - reading to understand ➡️ [books](https://books.hotdogsandeggs.com)
+- practing with data ➡️ [fungo](https://fungo.hotdogsandeggs.com)
 
 **What do I do?**
 
-I run customer operations for software products from my home in Charlotte, North Carolina. My skills include email support, quality assurance, documentation, and technical tasks (💎 ruby + 📉 R). 
+I run customer operations for software products from my home in Charlotte, North Carolina. My skills include email support, quality assurance, documentation, and technical tasks (Ruby 💎 and R 📉). 
 
 Today, I work with [{{< zipline "Zipline." >}}](https://www.retailzipline.com/) Our team makes it easier for retailers to communicate with each other. 
 
