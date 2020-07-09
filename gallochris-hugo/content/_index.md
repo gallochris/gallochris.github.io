@@ -6,13 +6,13 @@ layout: index
 # Hi, I'm Chris.
 
 And this is [hot dogs and eggs](/manifesto). It's my little piece of the
-world wide web. It's a place for me to stay curious.
+world wide web. A place for me to stay curious.
 
 **How do I stay curious?**
 
 - writing to think ➡️ [blog](https://blog.hotdogsandeggs.com)
 - reading to understand ➡️ [books](https://books.hotdogsandeggs.com)
-- practing with data ➡️ [fungo](https://fungo.hotdogsandeggs.com)
+- practicing with data ➡️ [fungo](https://fungo.hotdogsandeggs.com)
 
 **What do I do?**
 
