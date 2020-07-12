@@ -21,7 +21,7 @@ Today, I work with [{{< zipline "Zipline." >}}](https://www.retailzipline.com/) 
 
 If you want to learn more about my background in customer support, Rob Williams was kind enough to have me on his Freelance podcast. [Listen to it here](https://twitter.com/YoFolyo/status/1196127933384908800?s=20). 
 
-**What am I up to lately?** 
+**What am I up to as of late?** 
 
 I'm starting to learn more about how to use R. In the past, I've built a Shiny application, [app.dadgumboxscores.com](https://app.dadgumboxscores.com/), with every UNC men's basketball box score since 2003-04 season. 
 
