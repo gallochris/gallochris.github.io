@@ -12,6 +12,7 @@ world wide web. A place for me to stay curious.
 
 - writing to think ➡️ [blog](https://blog.hotdogsandeggs.com)
 - reading to understand ➡️ [books](https://books.hotdogsandeggs.com)
+- playing with data ➡️ [fungo](https://fungo.hotdogsandeggs.com)
 
 **What do I do?**
 
