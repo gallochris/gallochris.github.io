@@ -20,7 +20,7 @@ EXPERIENCE
 
 ### Zipline: [retailzipline.com](https://www.retailzipline.com/)
 
-Customer Operations & Success Manager since January 2019. Our team makes it easier for large retailers to communicate with each other. I work remotely from my home in Charlotte, NC. 
+Customer Operations & Support Engineer since January 2019. Our team makes it easier for large retailers to communicate with each other. I work remotely from my home in Charlotte, NC. 
 
 My responsibilities include: 
 
@@ -29,6 +29,7 @@ My responsibilities include:
 -   Documenting bugs and performance issues to share with the product team 
 -   Executing customer implementation during trials and pilots 
 -   Analyzing support metrics to determine ways to improve the product
+-   Managing chat and email support for the versions of the product  
 
 
 * * * * *
@@ -124,7 +125,7 @@ on the web on my own. Here are a few static sites I've put together.
 
 -   [cbbstatshelp.com](https://cbbstatshelp.com): learn more about
     advanced analytics for college basketball.
--   [dadgumboxscores.com](https://dadgumboxscores.com): find any UNC
+-   [dadgumboxscores.com](https://app.dadgumboxscores.com): find any UNC
     men's basketball box score since 2003-2004.
 -   [dalecarnegieismyhomeboy.com](https://hotdogsandeggs.com/dale/):
     all 30 principles from *How to Win Friends and Influence People*.
