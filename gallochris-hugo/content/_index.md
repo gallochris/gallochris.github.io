@@ -10,9 +10,9 @@ world wide web. A place for me to stay curious.
 
 **How do I stay curious?**
 
+- playing with data ➡️ [fungo](https://fungo.hotdogsandeggs.com)
 - writing to think ➡️ [blog](https://blog.hotdogsandeggs.com)
 - reading to understand ➡️ [books](https://books.hotdogsandeggs.com)
-- playing with data ➡️ [fungo](https://fungo.hotdogsandeggs.com)
 
 **What do I do?**
 
