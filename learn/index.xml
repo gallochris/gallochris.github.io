@@ -5,11 +5,7 @@
     <link>https://hotdogsandeggs.com/learn/</link>
     <description>Recent content in Chris Gallo | Learn on Chris Gallo | Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://hotdogsandeggs.com/learn/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://hotdogsandeggs.com/learn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>09: What you care about</title>
       <link>https://hotdogsandeggs.com/learn/09/</link>
