@@ -5,27 +5,12 @@ layout: index
 
 # Hi, I'm Chris.
 
-And this is [hot dogs and eggs](/manifesto). It's my little piece of the
-world wide web. A place for me to stay curious.
+And this is [my little piece](/manifesto) of the world wide web. A place for me to stay curious.
 
-**How do I stay curious?**
+I stay curious by playing with [data](https://fungo.hotdogsandeggs.com), writing to [think](https://blog.hotdogsandeggs.com), and reading to [learn](https://books.hotdogsandeggs.com).
 
-- playing with data ➡️ [fungo](https://fungo.hotdogsandeggs.com)
-- writing to think ➡️ [blog](https://blog.hotdogsandeggs.com)
-- reading to understand ➡️ [books](https://books.hotdogsandeggs.com)
+My day job is helping teams build better software. I have experience in customer operations, support engineering, and product management. My focus is around understanding what customers are trying to do and _how_ to help them make progress.
 
-**What do I do?**
+I work remotely from my home in Charlotte, North Carolina and I spend my days building [{{< zipline "Zipline." >}}](https://www.retailzipline.com/) Our team makes it easier for retailers to communicate with each other.
 
-I run customer operations for software products from my home in Charlotte, North Carolina. My skills include email support, quality assurance, documentation, and technical tasks (Ruby 💎 and R 📉). 
-
-Today, I work with [{{< zipline "Zipline." >}}](https://www.retailzipline.com/) Our team makes it easier for retailers to communicate with each other. 
-
-If you want to learn more about my background in customer support, Rob Williams was kind enough to have me on his Freelance podcast. [Listen to it here](https://twitter.com/YoFolyo/status/1196127933384908800?s=20). 
-
-**What am I up to as of late?** 
-
-I'm starting to learn more about how to use R. In the past, I've built a Shiny application, [app.dadgumboxscores.com](https://app.dadgumboxscores.com/), with every UNC men's basketball box score since 2003-04 season. 
-
-My next project is called [fungo](https://fungo.hotdogsandeggs.com). It's a place for me to play with data and share what I learn.  
-
-* * * 
+* * *
