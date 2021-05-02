@@ -1,17 +1,15 @@
---- 
+---
 title: Chris Gallo | Resume
 type: resume
 layout: resumetime
 ---
 
-HOW MY BOSS DESCRIBES ME
-----------
 
 * * * * *
 
-> I hired Chris because he was already doing support for me at Draft for free and I hadn’t even asked him to :) He’s incredibly ambitious and helpful in every aspect of your business, way beyond typical support. He’ll run your business if you want him to. I promise you, customers will write in to you about how much they love Chris. 
+> I hired Chris because he was already doing support for me at Draft for free and I hadn’t even asked him to :) He’s incredibly ambitious and helpful in every aspect of your business, way beyond typical support. He’ll run your business if you want him to. I promise you, customers will write in to you about how much they love Chris.
 
-> [Nathan Kontny, former CEO of Highrise](https://medium.com/@natekontny/moving-on-from-highrise-94fb26df67e7) 
+> [Nathan Kontny, former CEO of Highrise](https://medium.com/@natekontny/moving-on-from-highrise-94fb26df67e7)
 
 * * * * *
 
@@ -20,16 +18,17 @@ EXPERIENCE
 
 ### Zipline: [retailzipline.com](https://www.retailzipline.com/)
 
-Customer Operations & Support Engineer since January 2019. Our team makes it easier for large retailers to communicate with each other. I work remotely from my home in Charlotte, NC. 
+Associate Technical Product Manager role as of April 2021. Past role in Customer Operations as a Support Engineer since January 2019. Our team makes it easier for retailers and large organizations to communicate with each other. I work remotely from my home in Charlotte, NC.
 
-My responsibilities include: 
+My past and current responsibilities include:
 
--   Managing chat and email support for the versions of the product  
--   Performing technical tasks including Ruby on Rails scripts for data integrity and customer automation
--   Documenting bugs and performance issues to share with the product team 
--   Executing customer implementation during trials and pilots 
+-   Shaping work to build new functionality and improve how customers interact with the product
+-   Defining processes to work collaboratively and make teammates lives less stressful
+-   Managing chat and email support for the versions of the product
+-   Performing technical tasks including writing Ruby on Rails scripts for data integrity and customer automation
+-   Documenting bugs and performance issues to share with the product team
+-   Executing customer implementation during trials and pilots
 -   Analyzing support metrics to determine ways to improve the product
--   Managing chat and email support for the versions of the product  
 
 
 * * * * *
@@ -39,11 +38,11 @@ My responsibilities include:
 
 Customer operations from April 2018 to January 2019. Employee number five of a team that helps people manage business expenses.
 
-Joined Emburse to help them transition and migrate to a new card processor for all customers. My duties included: 
+Joined Emburse to help them transition and migrate to a new card processor for all customers. My duties included:
 
 -   Managing all email and phone support for customers
 -   Developing the product's first iteration of documentation
--   Updating the marketing site via copy edit and pull requests 
+-   Updating the marketing site via copy edit and pull requests
 -   Doing quality assurance to make sure the product performs properly
 
 * * * * *
@@ -53,7 +52,7 @@ Joined Emburse to help them transition and migrate to a new card processor for a
 Head of customer support from September 30, 2014 to March 31, 2018. Part of the small
 seven-person team tasked with bringing the
 [37Signals](https://signalvnoise.com/posts/3770-big-news-for-highrise)
-product back to life. I've worked remotely my entire time. The
+product back to life. I worked remotely my entire time. The
 **biggest lesson I learned** working with Highrise is to how to be
 **resourceful**.
 
@@ -77,34 +76,6 @@ In my time at Highrise, I . . .
 
 * * * * *
 
-### Spring Metrics (now Spring Engage): [springengage.com](http://www.springengage.com/)
-
-Customer support specialist, 2013-2014, while living in Raleigh, NC.
-This is where I cut my teeth learning the ins and outs of supporting
-customers that use a software product.
-
--   Supported hundreds of eCommerce businesses that use behavioral
-    targeting software.
--   Helped folks get started by inserting a JavaScript snippet on their
-    ecommerce stores.
--   Wrote tutorials, blog posts, and technical guides to assist current
-    and future clients.
-
-* * * * *
-
-### Four Clouds (Four Dispatch): [fourdispatch.com](http://fourdispatch.com/)
-
-Marketing & Sales Coordinator, 2012–2013, while living in Chapel Hill,
-NC. This was my first job working in software for a specific product.
-
--   Helped launch Four Dispatch, a mobile and web app for the
-    delivery/service industry.
--   Completed over 100 customer development interviews.
--   Put together a [blog](http://fourdispatch.com/blog/) that allowed us
-    to understand potential customers.
-
-* * * * *
-
 ### UNC-Chapel Hill Athletic Communications: [goheels.com](http://www.goheels.com/)
 
 Communications Assistant, 2009–2011. My first job out of college working
@@ -123,12 +94,10 @@ In addition to this personal site, I also love to try to make my own
 things. It's my way of staying curious and learning how to build things
 on the web on my own. Here are a few static sites I've put together.
 
--   [cbbstatshelp.com](https://cbbstatshelp.com): learn more about
-    advanced analytics for college basketball.
 -   [dadgumboxscores.com](https://app.dadgumboxscores.com): find any UNC
     men's basketball box score since 2003-2004.
 -   [dalecarnegieismyhomeboy.com](https://hotdogsandeggs.com/dale/):
     all 30 principles from *How to Win Friends and Influence People*.
 
 If you want to get in touch, please [email me
-here](mailto:christopher.joseph.gallo@gmail.com).
+here](mailto:chris@hellogallo.com).

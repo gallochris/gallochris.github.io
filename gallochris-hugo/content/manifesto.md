@@ -1,7 +1,7 @@
---- 
+---
 title: Manifesto | Chris Gallo
 type: manifesto
-layout: mrmanifesto 
+layout: mrmanifesto
 ---
 
 What's up with hot dogs and eggs?
@@ -20,19 +20,5 @@ a kid. I kept saying it all day. Hot dogs and eggs. It made me smile :)
 I bought the domain name and laughed. But it stuck. It's goofy and
 different, just like me. A curious combination, hot dogs and eggs.
 
-The name has come to mean much more to me. It's part of my philosophy. And it represents {{< yellow "what I believe."  >}}
-
-* * * * 
-
-The best answer is a **question**.
-
-Listen to what people **do**, not just what they **say**.
-
-**Less** is more.
-
-**Simple** doesn't mean *easy*.
-
-If it's not **useful or entertaining**, it's useless.
-
-* * * * 
+* * * *
 
