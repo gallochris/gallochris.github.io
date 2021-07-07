@@ -15,7 +15,7 @@ I work remotely from my home in Charlotte, North Carolina and I spend my days bu
 
 Fun side projects:
 
--   [dadgumboxscores.com](https://app.dadgumboxscores.com): a shiny app (R 📈) to find any UNC
+-   [dadgumboxscores.com](https://dadgumboxscores.com): find any UNC
     men's basketball box score since 2003-2004.
 -   [dalecarnegieismyhomeboy.com](https://hotdogsandeggs.com/dale/):
     all 30 principles from *How to Win Friends and Influence People*.
