@@ -7,12 +7,13 @@ layout: index
 
 And this is [my little piece](/manifesto) of the world wide web. A place for me to stay curious.
 
-My day job is helping teams build better software. I have experience in customer operations, support engineering, and product management. My focus is around understanding what customers and teammates are trying to do, and _how_ to help them make progress.
+I help teams build better software. I have experience in customer operations, support engineering, and product management. My focus is around understanding what customers and teammates are trying to do, and _how_ to help them make progress.
 
 I work remotely from my home in Charlotte, North Carolina and I spend my days building [{{< zipline "Zipline." >}}](https://getzipline.com/) Our team makes it easier for retailers and large organizations to communicate with each other.
 
-Fun past side projects:
+Fun current and past side projects:
 
+-   [books.hotdogsandeggs.com](https://books.hotdogsandeggs.com/#/): list of notes from books I've read. 
 -   [dadgumboxscores.com](https://dadgumboxscores.com): find any UNC
     men's basketball box score since 2003-2004.
 -   [dalecarnegieismyhomeboy.com](https://hotdogsandeggs.com/dale/):
